@@ -12,10 +12,18 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Futura PT';
+    src: url('./common/fonts/FuturaPT-Demi.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
 *{
     padding: 0;
     margin: 0;
     font-family: 'Futura PT';
+    color: #171717;
 }
 
 

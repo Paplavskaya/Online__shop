@@ -8,6 +8,7 @@ export const Menu = () => {
                 defaultSelectedKeys={['2']}
                 items={[
                     {label:<NavLink to="/">Главная</NavLink>, key: 'home'},
+                    {label:<NavLink to="/promotion">Акции</NavLink>, key: 'promotion'},
                     {label:<NavLink to="/catalog">Каталог</NavLink>, key: 'catalog'},
                     {label:<NavLink to="/brands">Бренды</NavLink>, key: 'brands'},
                 ]}

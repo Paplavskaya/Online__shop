@@ -1,0 +1,121 @@
+.ant-layout-header {
+    padding: 0;
+}
+
+.ant-layout-footer {
+    padding: 24px 0;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.header__btn .ant-btn {
+    padding: 4px 11px;
+}
+
+.header__wrapper .ant-btn-primary {
+    color: #171717;
+    background-color: #fff;
+    text-transform: uppercase;
+    box-shadow: none;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header__wrapper .ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+    background-color: #fff;
+}
+
+.header__wrapper .ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover span {
+    color: #959595;
+}
+
+.header__wrapper .ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover .burger_icon {
+    color: #959595;
+}
+
+.ant-drawer .ant-drawer-content .ant-drawer-body a {
+    color: #171717;
+    font-size: 18px;
+    line-height: 130%;
+    color: #585858;
+    padding: 8px 12px;
+}
+
+.ant-drawer .ant-drawer-content .ant-drawer-body a:hover {
+    color: #959595;
+}
+
+.ant-btn-default {
+    border: none;
+    box-shadow: none;
+}
+
+.dropdown__menu span {
+    font-size: 16px;
+}
+
+.working__hours {
+    width: 165px;
+}
+
+.working__hours, 
+.messagers__title,
+.social__title {
+    color: #959595;
+    font-size: 16px;
+}
+
+.contact-us__tel {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contact-us__social,
+.contact-us__messagers {
+    display: flex;
+    gap: 15px;
+}
+
+@media (max-width: 1024px){
+    .dropdown__menu,
+    .header__wrapper .ant-btn-primary span {
+        display: none;
+    }
+
+    .header__wrapper {
+        justify-content: initial;
+    }
+
+    .header__logo {
+        font-size: 38px;
+        flex-grow: 1;
+    }
+}
+
+@media (max-width: 768px){
+    .header__btn .ant-btn >.anticon+span  {
+        display: none;
+    }
+
+    .header__logo {
+        font-size: 32px;
+    }
+}
