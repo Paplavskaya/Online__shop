@@ -26,4 +26,9 @@
     color: #171717;
 }
 
+html,
+body,
+#root {
+    height: 100vh;
+}
 

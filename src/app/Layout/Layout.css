@@ -7,6 +7,7 @@
 }
 
 .header__wrapper {
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -15,16 +16,26 @@
 .header__menu {
     display: flex;
     align-items: center;
+    gap: 15px
+}
+
+.header__menu .ant-btn {
+    padding: 0;
 }
 
 .header__logo {
     color: #171717;
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.header__logo:hover {
+    color: #171717;
 }
 
 .header__btn .ant-btn {
-    padding: 4px 11px;
+    padding: 0 2px;
+    font-size: 12px;
 }
 
 .header__wrapper .ant-btn-primary {
@@ -33,10 +44,11 @@
     text-transform: uppercase;
     box-shadow: none;
     font-size: 16px;
+    letter-spacing: .1em;
     font-weight: 600;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 3px;
 }
 
 .header__wrapper .ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
@@ -53,10 +65,10 @@
 
 .ant-drawer .ant-drawer-content .ant-drawer-body a {
     color: #171717;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 130%;
     color: #585858;
-    padding: 8px 12px;
+    padding: 8px 8px;
 }
 
 .ant-drawer .ant-drawer-content .ant-drawer-body a:hover {
@@ -72,29 +84,46 @@
     font-size: 16px;
 }
 
+.dropdown__menu .ant-dropdown-trigger.ant-btn>.anticon-down {
+    font-size: 9px;
+}
+
+.dropdown__menu .ant-btn >span+.anticon {
+    margin-inline-start: 4px;
+}
+
 .working__hours {
-    width: 165px;
+    width: 130px;
 }
 
 .working__hours, 
 .messagers__title,
 .social__title {
     color: #959595;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .contact-us__tel {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
 }
 
 .contact-us__social,
 .contact-us__messagers {
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 768px){
+    .ant-layout-header {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .header__wrapper {
+        border-bottom: 1px solid rgba(5, 5, 5, 0.06);
+    }
+    
     .dropdown__menu,
     .header__wrapper .ant-btn-primary span {
         display: none;
@@ -105,17 +134,27 @@
     }
 
     .header__logo {
-        font-size: 38px;
+        font-size: 30px;
         flex-grow: 1;
+        margin-left: 15px;
     }
-}
 
-@media (max-width: 768px){
     .header__btn .ant-btn >.anticon+span  {
         display: none;
     }
 
+    .ant-btn-group >.ant-btn {
+        height: 10px;
+    }
+
+    .header__btn .ant-btn {
+        padding: 0 6px;
+    }
+}
+
+@media (max-width: 375px){
     .header__logo {
-        font-size: 32px;
+        font-size: 28px;
+        margin-left: 10px;
     }
 }

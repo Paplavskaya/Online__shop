@@ -7,11 +7,11 @@ export const Menu = () => {
                 mode="horizontal"
                 defaultSelectedKeys={['2']}
                 items={[
-                    {label:<NavLink to="/">Главная</NavLink>, key: 'home'},
-                    {label:<NavLink to="/promotion">Акции</NavLink>, key: 'promotion'},
-                    {label:<NavLink to="/catalog">Каталог</NavLink>, key: 'catalog'},
-                    {label:<NavLink to="/brands">Бренды</NavLink>, key: 'brands'},
+                    {label:<NavLink className='menu__item' to="/">Главная</NavLink>, key: 'home'},
+                    {label:<NavLink className='menu__item' to="/promotion">Акции</NavLink>, key: 'promotion'},
+                    {label:<NavLink className='menu__item' to="/catalog">Каталог</NavLink>, key: 'catalog'},
+                    {label:<NavLink className='menu__item' to="/brands">Бренды</NavLink>, key: 'brands'},
                 ]}
-                className="menu"
+                className="menu__items"
             />
 }

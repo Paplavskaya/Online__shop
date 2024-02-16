@@ -65,13 +65,13 @@ const items: MenuProps['items'] = [
     label: (
       <div className="contact-us__messagers">
         <a className="messager__viber" href="#">
-          <img className="icon__viber" src={icon_viber} style={{ width: '30px'}}/>
+          <img className="icon__viber" src={icon_viber} style={{ width: '25px'}}/>
         </a>
         <a className="messager__telegram" href="#">
-          <img className="icon__telegram" src={icon_telegram} style={{ width: '30px'}}/>
+          <img className="icon__telegram" src={icon_telegram} style={{ width: '25px'}}/>
         </a>
         <a className="messager__whatsapp" href="#">
-          <img className="icon__whatsapp" src={icon_whatsapp} style={{ width: '30px'}}/>
+          <img className="icon__whatsapp" src={icon_whatsapp} style={{ width: '25px'}}/>
         </a>
       </div>
     ),
@@ -98,13 +98,13 @@ const items: MenuProps['items'] = [
     label: (
       <div className="contact-us__social">
         <a className="social__instagram" href="#">
-          <img className="icons__instagram" src={icons_instagram} style={{ width: '30px'}}/>
+          <img className="icons__instagram" src={icons_instagram} style={{ width: '25px'}}/>
         </a>
         <a className="social__facebook" href="#">
-          <img className="icons__facebook" src={icons_facebook} style={{ width: '30px'}}/>
+          <img className="icons__facebook" src={icons_facebook} style={{ width: '25px'}}/>
         </a>
         <a className="icons__pinterest" href="#">
-          <img className="icons__pinterest" src={icons_pinterest} style={{ width: '30px'}}/>
+          <img className="icons__pinterest" src={icons_pinterest} style={{ width: '25px'}}/>
         </a>
       </div>
     ),
@@ -125,7 +125,7 @@ export const Layout = () => {
     setOpen(false);
   };
 
-  return (<AntdLayout style={{ height: '100vh', backgroundColor: '#fff'}}>
+  return (<AntdLayout style={{ backgroundColor: '#fff'}}>
             <Header
               style={{
                 position: 'sticky',
@@ -136,11 +136,13 @@ export const Layout = () => {
               }}
             >
               <Container >
+
                 <div className="header__wrapper">
+
                   <div className='header__menu'>
                     <div className='vertical__menu'>
                       <Button type="primary" onClick={showDrawer}>
-                        <img className="burger_icon" src={burger_icon} style={{ width: '30px'}}/> 
+                        <img className="burger_icon" src={burger_icon} style={{ width: '25px'}}/> 
                         <span>Каталог</span>
                       </Button>
                       <Drawer 
@@ -150,9 +152,9 @@ export const Layout = () => {
                         placement={'left'}
                       >
                         <div style={{
-                              display: 'flex',
-                              flexDirection: 'column',
-                            }}
+                          display: 'flex',
+                          flexDirection: 'column',
+                          }}
                         > 
                           <Link to="/" onClick={onClose}>Главная</Link>
                           <Link to="/promotion" onClick={onClose}>Акции</Link>
@@ -175,30 +177,33 @@ export const Layout = () => {
                   <Link to="/" className='header__logo'>VD</Link>
                   
                   <ButtonGroup className='header__btn'>
-                    <Button style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} type="link"><SearchOutlined />Поиск</Button> 
+                    <Button style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} type="link"><SearchOutlined style={{ fontWeight: 'bold' }}/>Поиск</Button> 
                     <Button style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} type="link"><LoginOutlined />Войти</Button>
                     <Button style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} type="link"><HeartOutlined />Избранное</Button>
                     <Button style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} type="link"><ShoppingCartOutlined />Корзина</Button>
                   </ButtonGroup>
-                  
                 </div>
+
               </Container>
             </Header>
+
             <Container>
               <Menu />
             </Container>
+            
             <Content>
               <Container>
                 <div
                   style={{
-                    padding: 20,
-                    minHeight: 380,
+                    paddingTop: 20,
+                    paddingBottom: 20
                   }}
                 >
-                  <Outlet/>
+                  <Outlet />
                 </div>
               </Container>
             </Content>
+
             <Footer style={{ textAlign: 'center' }}>
               <Container>Ant Design ©{new Date().getFullYear()} Created by Ant UED</Container>
             </Footer>

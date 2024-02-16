@@ -1,4 +1,20 @@
-.menu {
-    display: flex;
+.menu__items {
     justify-content: center;
+}
+
+.menu__item {
+    font-size: 18px;
+    line-height: 130%;
+    font-weight: 600;
+}
+
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item:hover::after,
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected::after {
+    border-bottom-color: #0fb769;
+}
+
+@media (max-width: 768px){
+    .menu__items  {
+        display: none;
+    }
 }
