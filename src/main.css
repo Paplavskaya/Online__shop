@@ -23,12 +23,19 @@
     padding: 0;
     margin: 0;
     font-family: 'Futura PT';
-    color: #171717;
 }
 
 html,
 body,
 #root {
     height: 100vh;
+}
+
+#root {
+    color: #171717;
+}
+
+.ant-btn {
+    color: #171717;
 }
 

@@ -1,18 +1,19 @@
 import { makeAutoObservable, runInAction } from "mobx";
-import { CatalogData, Product } from "../models/CatalogData";
+import { CatalogData, Product } from "../models/CatalogData"
 
 class CatalogListStore {
     
     catalogListDataState: CatalogData | undefined = undefined
+    categoriesState: string[] | undefined = undefined;
     awaiting: boolean = false
 
     get productsData () {
-        return this.catalogListDataState?.data
+        return this.catalogListDataState?.products
     }
 
     get productsTotal () {
         let count = 0;
-        this.catalogListDataState?.data.forEach((product)=>{
+        this.catalogListDataState?.products.forEach((product)=>{
             if(product) {
                 count +=1;
             }
@@ -24,10 +25,24 @@ class CatalogListStore {
         makeAutoObservable(this)
     }
 
+    // loadCategories = async () => {
+    //     try {
+    //         const response = await fetch('https://fakestoreapi.com/products');
+    //         if(response.status === 200) {
+    //             const data: string[] = await response.json();
+    //             runInAction(() => {this.categoriesState = data})
+    //         }
+    //     } catch(error) {
+    //         console.log(error)
+    //     }
+
+    //     console.log(this.catalogListDataState)
+    // }
+
     loadingData = async () => {
         try{
             runInAction(() => {this.awaiting = true}) 
-            const response = await fetch('https://fh.by/api/v2/catalog?hash=eyJNZW51QnVpbGRlciI6MzA0MSwiQ2F0ZWdvcnkiOjQ5N30%2F&page=1&sort=new');
+            const response = await fetch('https://dummyjson.com/products');
             
             if(response.status === 200) {
                const data: CatalogData = await response.json();

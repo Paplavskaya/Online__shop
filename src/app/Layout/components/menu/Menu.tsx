@@ -5,7 +5,6 @@ import './Menu.css'
 export const Menu = () => {
     return <AntdMenu
                 mode="horizontal"
-                defaultSelectedKeys={['2']}
                 items={[
                     {label:<NavLink className='menu__item' to="/">Главная</NavLink>, key: 'home'},
                     {label:<NavLink className='menu__item' to="/promotion">Акции</NavLink>, key: 'promotion'},
