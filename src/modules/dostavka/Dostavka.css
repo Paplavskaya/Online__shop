@@ -1,0 +1,54 @@
+.sposob-dostavki__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.sposob-dostavki__item {
+    background-color: rgba(190, 214, 241, 0.102);
+    width: 550px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 20px;
+    box-shadow:  8px 8px 8px #6371811a;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sposob-dostavki__title {
+    line-height: 140%;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1265px){
+    .sposob-dostavki__items {        
+        gap: 25px;
+    }
+    
+    .sposob-dostavki__item{
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px){
+    .sposob-dostavki__title {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 375px){
+    .sposob-dostavki__title {
+        margin-bottom: 0;
+    }
+
+    .sposob-dostavki__items {        
+        gap: 20px;
+    }
+
+    .sposob-dostavki__item {
+        gap: 10px;
+        padding: 15px 25px 15px 25px;
+    }
+}

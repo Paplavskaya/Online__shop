@@ -1,0 +1,17 @@
+.contact-us__messagers {
+    display: flex;
+    gap: 10px;
+}
+
+.messager__viber,
+.messager__telegram,
+.messager__whatsapp {
+    padding: 6px 6px 0 6px;
+    border-radius: 10px;
+}
+
+.messager__viber:hover,
+.messager__telegram:hover,
+.messager__whatsapp:hover {
+    background-color: rgba(114, 142, 174, 0.3);
+}

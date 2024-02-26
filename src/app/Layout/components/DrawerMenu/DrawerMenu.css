@@ -1,0 +1,42 @@
+.ant-drawer .ant-drawer-content .ant-drawer-body a {
+    color: #172542;
+    font-size: 16px;
+    line-height: 130%;
+    padding: 8px 8px;
+}
+
+.ant-drawer .ant-drawer-content .ant-drawer-body a:hover {
+    color: #728eae;
+}
+
+.ant-drawer .ant-drawer-body {
+    padding: 0;
+}
+
+.drawer__items,
+.drawer__info {
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.drawer__info {
+    background-color:rgba(250, 216, 157, 0.3);
+    gap: 20px;
+}
+
+.drawer__info__items {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.drawer__contact__info .working__hours {
+    width: 100%;
+    padding: 8px 8px;
+}
+
+.drawer__social {
+    padding-left: 8px;
+    margin-top: 10px;
+}

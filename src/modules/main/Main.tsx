@@ -1,3 +1,9 @@
+import './Main.css'
+import { PromoCarousel } from './components/PromoCarousel'
+
 export const Main = () => {
-    return <h2>Main</h2>
+
+    return <>
+            <PromoCarousel />
+        </>
 }

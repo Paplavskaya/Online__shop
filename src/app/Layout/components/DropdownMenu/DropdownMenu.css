@@ -1,0 +1,33 @@
+.dropdown__menu span {
+    font-size: 16px;
+}
+
+.dropdown__menu .ant-dropdown-trigger.ant-btn>.anticon-down {
+    font-size: 9px;
+}
+
+.dropdown__menu .ant-btn >span+.anticon {
+    margin-inline-start: 4px;
+}
+
+.working__hours {
+    width: 150px;
+}
+
+.working__hours, 
+.messagers__title,
+.social__title {
+    color: #728eae;
+    font-size: 14px;
+}
+
+.contact-us__tel {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px){
+    .dropdown__menu {
+        display: none;
+    }
+}

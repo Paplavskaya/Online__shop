@@ -1,0 +1,60 @@
+.page__header {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    margin: 25px 0;
+}
+
+.page__title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 140%;
+}
+
+.page__description {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+
+@media (max-width: 800px) {
+    .page__title {
+        font-size: 30px;
+    }
+
+    .page__description {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 425px) {
+    .page__header {
+        margin: 15px 0;
+    }
+    
+    .page__title {
+        font-size: 28px;
+    }
+
+    .page__description {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .page__header {
+        margin: 10px 0;
+    }
+    
+    .page__title {
+        font-size: 24px;
+    }
+
+    .page__description {
+        font-size: 14px;
+    }    
+}

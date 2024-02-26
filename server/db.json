@@ -1,0 +1,1416 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "ALVINE SPETS  АЛЬВИНЕ СПЕТС Гардины, 2 шт., белый с оттенком, 145x300 см",
+      "description": "Такое решение для оформления окна снижает уровень проникновения света с улицы и защищает комнату от посторонних взглядов.",
+      "material": "Материал изделия: 100% полиэстер (100 % переработанного материала).\n      Усадка: максимум 4%.\n      Машинная стирка 40°С, деликатный режим. Не отбеливать. Не сушить в стиральной машине. Гладить в низком температурном режиме. Не подвергать химической чистке.",
+      "sizeProduct": "Длина: 300 см, ширина: 145 см, вес: 0.60 кг, количество в упаковке: 2 шт.",
+      "category": {
+        "id": "tekstil",
+        "name": "Текстиль"
+      },
+      "newStatus": false,
+      "price": 59.99,
+      "stock": 8,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/7/6/om-ru-ru-images-products-alvine-spets-alvine-spets-gardiny-2-sht-belyy-s-ottenkom__0099780_pe242082_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/7/6/om-ru-ru-images-products-alvine-spets-alvine-spets-gardiny-2-sht-belyy-s-ottenkom__0886602_pe569730_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/7/6/om-ru-ru-images-products-alvine-spets-alvine-spets-gardiny-2-sht-belyy-s-ottenkom__0886570_pe569648_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/7/6/om-ru-ru-images-products-alvine-spets-alvine-spets-gardiny-2-sht-belyy-s-ottenkom__0471953_pe613777_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "SILVERTOPP СИЛЬВЕРТОПП Одеяло лёгкое, 150x200 см",
+      "description": "Отличный выбор для тех, кому часто бывает жарко во сне. Одеяло можно стирать в стиральной машине при температуре 60 °C. В такой горячей воде погибают пылевые клещи. Легкое одеяло из полипропиленовой ткани с наполнителем из переработанного полиэстера. Тонкое и легкое одеяло, под которым вам не будет жарко. Можно часто стирать при высокой температуре, быстро сохнет.",
+      "material": "Наполнитель: 100% полиэстер (100 % переработанного материала)Ткань: 100% полипропилен.",
+      "sizeProduct": "Длина: 200 см; Ширина: 150 см; Вес наполнения: 300 г; Вес: 550 г",
+      "category": {
+        "id": "tekstil",
+        "name": "Текстиль"
+      },
+      "newStatus": false,
+      "price": 24.99,
+      "stock": 10,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/7/7/om-ru-ru-images-products-myskgraes-myuskgres-odeyalo-prohladnoe__0597941_pe677343_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/7/7/om-ru-ru-images-products-myskgraes-myuskgres-odeyalo-prohladnoe__0886683_pe682637_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "BRIMNES БРИМНЭС комод с 3 ящиками 78х95 см, белый/матовое стекло",
+      "description": "Верхний ящик из матового стекла создает интересный вид мебели. Даже отдельностоящий комод будет смотреться очень стильно без потери функциональности. Внешний вид можно улучшить , поставив несколько комодов рядом друг с другом. Специальные стопоры в направляющих ящиков не допустят их опрокидывания, а входящий в комплект крепеж к стене не позволит опрокинуться и комоду",
+      "material": "",
+      "sizeProduct": "Ширина: 78 см, глубина: 46 см, высота: 95 см, ширина ящика: 70 см, глубина ящика: 36 см",
+      "category": {
+        "id": "hranenie",
+        "name": "Хранение"
+      },
+      "newStatus": false,
+      "price": 249.99,
+      "stock": 16,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/mebel/brimnes-komoda-3-szuflady-bialy-szklo-matowe__0500920_pe631468_s5-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/mebel/brimnes-komoda-3-szuflady-bialy-szklo-matowe__0380432_pe555353_s5-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/mebel/brimnes-komoda-3-szuflady-bialy-szklo-matowe__0859059_pe631488_s5-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/mebel/brimnes-komoda-3-szuflady-bialy-szklo-matowe__0500931_pe631489_s5-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/mebel/brimnes-komoda-3-szuflady-bialy-szklo-matowe__1103271_pe867232_s5-780x780.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "FLÅDIS ФЛОДИС корзина 25 см водоросли",
+      "description": "При развернутых ручках верхняя часть этой универсальной корзины скрывает ее содержимое, а при сложенных корзина становится открытой: выбирайте, как вам больше нравится. Изделие сплетено вручную и делает дизайн интерьера аутентичнее и ближе к природе. Ручная работа – каждая корзина уникальна. Корзина складывается, что позволяет изменить ее форму и высоту. Корзины обеспечивают аккуратное хранение самых разных вещей – вам не придется тратить время на утомительные поиски.",
+      "material": "Морские водоросли, прозрачный лак. Протирать сухой тканью.",
+      "sizeProduct": "Высота: 32 см, диаметр: 25 см, мин высота: 18 см., вес: 0.27 кг",
+      "category": {
+        "id": "hranenie",
+        "name": "Хранение"
+      },
+      "newStatus": true,
+      "price": 49.99,
+      "stock": 31,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_151658995-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_151708162-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_151729439-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_151748243-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_151741887-780x780.png"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "FNISS ФНИСС мусорное ведро 10 л черный",
+      "description": "Пластик – прочный и простой в уходе материал. Чтобы поддерживать в чистоте, достаточно протереть влажной тканью.",
+      "material": "Полипропилен (мин. 20 % переработанного материала)Протирать мягкой влажной тканью, при необходимости можно использовать слабый мыльный раствор.",
+      "sizeProduct": "Высота: 28 см, диаметр: 28 см, объем: 10 л.",
+      "category": {
+        "id": "hranenie",
+        "name": "Хранение"
+      },
+      "newStatus": true,
+      "price": 8.99,
+      "stock": 155,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/2/8/om-ru-ru-images-products-fniss-musornoe-vedro-chernyy__0711307_pe728145_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/2/8/om-ru-ru-images-products-fniss-musornoe-vedro-chernyy__0405555_pe566782_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/2/8/om-ru-ru-images-products-fniss-musornoe-vedro-chernyy__0948858_pe799313_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "GREJIG ГРЕЙГ полка для обуви 58х27",
+      "description": "Можно поставить в прихожей для повседневной обуви или в гардероб для сезонного хранения. Полка легко раскладывается, поэтому вы можете поставить дополнительную полку, когда приходят гости.Полка вмещает 3 пары обуви. Три полки можно поставить одну на другую.",
+      "material": "Сталь, Пигментированное порошковое покрытие на основе полиэтилена.",
+      "sizeProduct": "Ширина: 58 см, Глубина: 27 см, Высота: 17 см.",
+      "category": {
+        "id": "hranenie",
+        "name": "Хранение"
+      },
+      "newStatus": true,
+      "price": 24.99,
+      "stock": 87,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_152721478-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_152727338-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_152733293-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_152739327-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_152819908-780x780.png"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "KRISTRUP КРИСТРУП придверный коврик",
+      "description": "Легко поддерживать в чистоте — коврик можно почистить пылесосом или просто вытряхнуть.",
+      "material": "Лицевая поверхность: 100% полиэстер (мин. 90 % переработанного материала). Подкладка: Синтетический каучук. Ручная стирка, макс. 40 °C. Не отбеливать. Не сушить в стиральной машине. Не гладить. Не подвергать химической чистке.",
+      "sizeProduct": "Длина: 55 см, Ширина: 35 см, Площадь: 0.19 м².",
+      "category": {
+        "id": "hranenie",
+        "name": "Хранение"
+      },
+      "newStatus": true,
+      "price": 5.99,
+      "stock": 40,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_153142647-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_153149382-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_153156830-780x780.png"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MULIG МУЛИГ Напольная вешалка, 99х46, белый",
+      "description": "Можно использовать в ванной и других помещениях с повышенным уровнем влажности, а также на лоджиях. Пластиковые ножки защитят поверхность от царапин.",
+      "material": "Основные части: Сталь, полиэстерное порошковое покрытие. Заглушка трубки: Полипропилен.",
+      "sizeProduct": "Ширина: 99 см, глубина: 46 см, высота: 152 см, макс нагрузка: 20 кг.",
+      "category": {
+        "id": "hranenie",
+        "name": "Хранение"
+      },
+      "newStatus": true,
+      "price": 49.99,
+      "stock": 45,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/2/8/om-ru-ru-images-products-mulig-napolnaya-veshalka-belyy__0710723_pe727744_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-10-17_181748098-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/sarpvachr-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/pachr-780x780.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "PÄRKLA ПЭРКЛА сумка для хранения 55х49х19 см",
+      "description": "Можно хранить самые разные предметы: елочные игрушки, постельное белье, одежду и обувь. Можно сложить, что обеспечивает компактное хранение.",
+      "material": "Материал: 100% полипропилен .Не стирать. Не отбеливать. Не сушить в стиральной машине. Не гладить. Не подвергать химической чистке.",
+      "sizeProduct": "Ширина: 55 см, Глубина: 49 см, Высота: 19 см.",
+      "category": {
+        "id": "hranenie",
+        "name": "Хранение"
+      },
+      "newStatus": false,
+      "price": 10.99,
+      "stock": 275,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_153842301-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_153848921-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_153856901-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_154026095-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_154039534-780x780.png"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "RISATORP РИСАТОРП корзина 25*26*18 см белый",
+      "description": "В этой красивой прозрачной корзине удобно хранить овощи и фрукты. Эту корзину удобно брать для покупок, отправляясь в магазин, или на огороде собирать в нее урожай овощей. Протестировано и одобрено для контакта с пищевыми продуктами.",
+      "material": "Корзина: Сталь, Порошковое покрытие, Ручка: Березовый шпон, Прозрачный акриловый лак.Не ставьте корзину в посудомоечную машину, под проточную воду и не погружайте в воду. Протирать мягкой влажной тканью, при необходимости можно использовать слабый мыльный раствор. Вытирать чистой сухой тканью.",
+      "sizeProduct": "Длина: 25 см, Ширина: 26 см, Высота: 18 см.",
+      "category": {
+        "id": "posuda",
+        "name": "Посуда"
+      },
+      "newStatus": false,
+      "price": 39.99,
+      "stock": 33,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_154425545-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_154431588-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_154438092-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_154443604-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_154451682-780x780.png"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "SAMLA САМЛА контейнер 28х19х14 см/5 л прозрачный",
+      "description": "Крышка приобретается отдельно ( САМЛА SAMLA крышка на 5 л).Храните различные мелочи в коробках. Это обеспечит порядок, а найти нужную вещь будет проще. Прозрачный пластик позволяет видеть содержимое и не тратить время на поиски нужной вещи. Рекомендуется использовать только в помещении.",
+      "material": "Полипропилен. Протирать мягкой влажной тканью, при необходимости можно использовать слабый мыльный раствор.",
+      "sizeProduct": "Ширина: 28 см, Глубина: 19 см, Высота: 14 см, Объем: 5 л.",
+      "category": {
+        "id": "hranenie",
+        "name": "Хранение"
+      },
+      "newStatus": false,
+      "price": 6.99,
+      "stock": 6,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/samla-konteyner-prozrachnyy__0711017_pe727898_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/2/9/om-ru-ru-images-products-samla-konteyner-s-kryshkoy-prozrachnyy__0910237_pe625944_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/2/9/om-ru-ru-images-products-samla-konteyner-s-kryshkoy-prozrachnyy__0758392_pe749702_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/2/9/om-ru-ru-images-products-samla-konteyner-s-kryshkoy-prozrachnyy__0738670_pe741520_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/2/9/om-ru-ru-images-products-samla-konteyner-s-kryshkoy-prozrachnyy__0738655_pe741513_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "SAMLA САМЛА Контейнер, прозрачный, 39x28x14 см/11 л",
+      "description": "Крышка приобретается отдельно ( САМЛА SAMLA крышка на  11/22 л).Храните различные мелочи в коробках. Это обеспечит порядок, а найти нужную вещь будет проще. Прозрачный пластик позволяет видеть содержимое и не тратить время на поиски нужной вещи. Рекомендуется использовать только в помещении.",
+      "material": "Полипропилен. Протирать мягкой влажной тканью, при необходимости можно использовать слабый мыльный раствор.",
+      "sizeProduct": "Ширина: 39 см, Глубина: 28 см, Высота: 14 см, Объем: 11 л.",
+      "category": {
+        "id": "hranenie",
+        "name": "Хранение"
+      },
+      "newStatus": true,
+      "price": 8.99,
+      "stock": 225,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/2/1/om-ru-ru-images-products-samla-konteyner-prozrachnyy__0711010_pe727891_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/2/1/om-ru-ru-images-products-samla-konteyner-prozrachnyy__0738663_pe741515_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/2/1/om-ru-ru-images-products-samla-konteyner-prozrachnyy__0738651_pe741512_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/2/1/om-ru-ru-images-products-samla-konteyner-prozrachnyy__0738660_pe741514_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "SAMLA САМЛА Контейнер, прозрачный, 56x39x28 см/45 л",
+      "description": "Крышка приобретается отдельно ( САМЛА SAMLA крышка на 45/65 л).Идеально подходит для хранения сезонной одежды и обуви, спортивного инвентаря, садовых инструментов или уборочного инвентаря.",
+      "material": "Полипропилен. Протирать мягкой влажной тканью, при необходимости можно использовать слабый мыльный раствор.",
+      "sizeProduct": "Ширина: 56 см, Глубина: 39 см, Высота: 28 см, Объем: 45 л.",
+      "category": {
+        "id": "hranenie",
+        "name": "Хранение"
+      },
+      "newStatus": false,
+      "price": 29.99,
+      "stock": 3,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-12-08_185334589-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-12-08_185349402-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-12-08_185434349-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-12-08_185458073-780x780.png"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "ENUDDEN ЭНУДДЭН дверная вешалка",
+      "description": "Покрытие на обратной стороне защищает дверь от царапин. Закрепляется на верхнем крае двери для рационального использования пространства. Можно повесить халаты или сумки.",
+      "material": "Металлические части/ Ручка: Сталь, Эпоксидное/полиэстерное порошковое покрытие; Части из пластика: ЭВА (Этиленвинилацетат). Протирать тканью, смоченной мягким моющим средством. Вытирать чистой сухой тканью.",
+      "sizeProduct": "Толщина двери: 4 см, ширина: 35 см, высота: 13 см.",
+      "category": {
+        "id": "vannaya",
+        "name": "Ванная"
+      },
+      "newStatus": false,
+      "price": 17.99,
+      "stock": 57,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/4/6/om-ru-ru-images-products-enudden-dvernaya-veshalka-belyy__0710492_pe727593_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/4/6/om-ru-ru-images-products-enudden-dvernaya-veshalka-belyy__0863273_pe654879_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/4/6/om-ru-ru-images-products-enudden-dvernaya-veshalka-belyy__0765725_ph143286_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/4/6/om-ru-ru-images-products-enudden-dvernaya-veshalka-belyy__0612578_ph124804_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "JÄLL ЭЛЛЬ Мешок для белья на опоре, 70 л, белый",
+      "description": "Легкая опора этого мешка для белья складывается, поэтому его удобно донести до стиральной машины, убрать на хранение в шкаф или, например, на крючок. В нем помещается до восьми килограммов белья, поэтому он вряд ли будет переполняться. Складывается, что позволяет легко перенести или убрать корзину. Вмещает до 8 кг белья.",
+      "material": "Сумка: ЭВА (Этиленвинилацетат); Подставка: Сталь; Окантовочная ткань/ Нить: 100% полиэстер; Шнур: 100% полипропилен; Заклепки: Сталь, Гальванизация; Ножка: Полипропилен; Пластиковая шайба: Полиэтилен.",
+      "sizeProduct": "Длина: 41 см, ширина: 43 см, высота: 64 см, объем: 70 л.",
+      "category": {
+        "id": "vannaya",
+        "name": "Ванная"
+      },
+      "newStatus": false,
+      "price": 22.99,
+      "stock": 20,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/4/5/om-ru-ru-images-products-jaell-ell-meshok-dlya-belya-na-opore-belyy__0711258_pe728096_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/4/5/om-ru-ru-images-products-jaell-ell-meshok-dlya-belya-na-opore-belyy__0388395_pe558496_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/4/5/om-ru-ru-images-products-jaell-ell-meshok-dlya-belya-na-opore-belyy__0612577_ph136104_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "LILLNAGGEN ЛИЛЛЬНАГЕН Скребок",
+      "description": "Скребок можно использовать для окон и для душевой кабины.",
+      "material": "Ручка: Переработанный ПП-пластик, Лезвие: Синтетический каучук, Алюминий, Анодированный. Протирать тканью, смоченной мягким моющим средством. Вытирать чистой сухой тканью.",
+      "sizeProduct": "Длина: 20 см,  Ширина: 25.5 см.",
+      "category": {
+        "id": "vannaya",
+        "name": "Ванная"
+      },
+      "newStatus": false,
+      "price": 4.99,
+      "stock": 170,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/lillnaggen-sciagaczka-wody__0863700_pe555289_s5-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/lillnaggen-sciagaczka-wody__0711844_pe728517_s5-780x780.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "TISKEN ТИСКЕН Угловая полка с присоской, белый",
+      "description": "Серия TISKEN позволяет размещать предметы в пределах досягаемости без необходимости сверления отверстий в стенах. Плотно прилегающие присоски не оторвутся от гладких поверхностей, таких как стекло или плитка, Если вы сами этого не хотите.",
+      "material": "Рама / пластина: поликарбонат, всасывающая крышка: синтетический каучук, крышка / основная часть: АБС-пластик, полка: переработанный АБС-пластик.",
+      "sizeProduct": "Ширина: 30 см, глубина: 20 см, высота: 17 см, максимальная нагрузка: 3 кг.",
+      "category": {
+        "id": "vannaya",
+        "name": "Ванная"
+      },
+      "newStatus": false,
+      "price": 24.99,
+      "stock": 13,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-12-28_180413313-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-12-28_180445012-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-12-28_180430716-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-12-28_180459327-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-12-28_180511610-780x780.png"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "TRENSUM ТРЕНСУМ Зеркало",
+      "description": "Это двустороннее зеркало можно поставить куда угодно. С одной стороны оно обычное, с другой — увеличительное, что очень удобно во время бритья, выщипывания бровей или нанесения макияжа. Можно использовать в помещениях с повышенной влажностью. Одна сторона зеркала увеличивает в 2,5 раза.",
+      "material": "Зеркальная часть: Стекло, Стекло. Держатель/ Рама/ Ножка: Нержавеющая сталь. Протирать тканью, смоченной водой или чистящим средством для стекла. Вытирать чистой сухой тканью.",
+      "sizeProduct": "Высота: 33 см, Диаметр: 17 см.",
+      "category": {
+        "id": "vannaya",
+        "name": "Ванная"
+      },
+      "newStatus": false,
+      "price": 24.99,
+      "stock": 2,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/4/0/om-ru-ru-images-products-trensum-zerkalo-nerzhaveyushch-stal__0637644_pe698434_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/4/0/om-ru-ru-images-products-trensum-zerkalo-nerzhaveyushch-stal__0864445_pe555116_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/4/0/om-ru-ru-images-products-trensum-zerkalo-nerzhaveyushch-stal__0864448_pe570488_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/4/0/om-ru-ru-images-products-trensum-zerkalo-nerzhaveyushch-stal__0864338_pe555944_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/4/0/om-ru-ru-images-products-trensum-zerkalo-nerzhaveyushch-stal__0765700_ph157179_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "BOLMEN БОЛЬМЕН Табурет-лестница, белый",
+      "description": "Эта устойчивая, нескользящая белая табуретка поднимет ваших детей на шаг вперед, чтобы они могли участвовать и учиться. Табурет также одобрен для взрослых ( максимальная нагрузка 100 кг), поэтому вы можете безопасно достать предметы высокого класса. Табурет прочно стоит на месте благодаря нескользящей защите снизу.Материал товара: ",
+      "material": "Полипропиленовый пластик. Ножки/ Ручка: синтетическая резина. Уход. Протрите сухой тканью. Протрите мягкой тканью, смоченной в воде и мягком моющем средстве или мыле, если это необходимо.",
+      "sizeProduct": "Ширина : 44 см, глубина : 35 см, высота сиденья : 25 см, максимальная нагрузка : 100 кг.",
+      "category":  {
+        "id": "detyam",
+        "name": "Детям"
+      },
+      "newStatus": false,
+      "price": 39.99,
+      "stock": 12,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-14_160230526-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-14_160240898-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-14_160247540-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-14_160253675-780x780.png"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "BOLMEN БОЛЬМЕН Щетка для туалета/держатель, белый",
+      "description": "Эта щетка простого дизайна, изготовленная из долговечного пластика, поможет вам содержать унитаз в идеальной чистоте.",
+      "material": "Щетка для унитаза: Полипропилен (мин. 20 % переработанного материала). Металлические части: Сталь. Щетина: Полипропилен.",
+      "sizeProduct": "Высота 36,5 см.",
+      "category": {
+        "id": "vannaya",
+        "name": "Ванная"
+      },
+      "newStatus": false,
+      "price": 5.99,
+      "stock": 40,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-04-10_153227160-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-04-10_153239878-780x780.png"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "MATA МАТА Набор посуды, 4 предмета, зеленый",
+      "description": "В этом наборе на тему лягушки есть все, что нужно вашему ребенку, чтобы есть и пить самостоятельно, а также нагрудник, чтобы поймать как можно больше того, что не попало в рот",
+      "material": "Нагрудник: Полиэтиленовый пластик. Чаша /Чашка / Крышка / Ложка: Полипропилен. Миску и чашку можно безопасно использовать в микроволновой печи и нагревать пищу до 100° C. Нагрудник следует стирать вручную.",
+      "sizeProduct": "длина: 30 см, ширина: 20 см, высота: 10 см",
+      "category":  {
+        "id": "detyam",
+        "name": "Детям"
+      },
+      "newStatus": false,
+      "price": 24.99,
+      "stock": 14,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/new/mata-nabor-posudy-4-predm-zelenyy__0711922_pe728565_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/new/mata-nabor-posudy-4-predm-zelenyy__0874068_pe614026_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/new/mata-nabor-posudy-4-predm-zelenyy__0468470_pe611469_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/new/mata-nabor-posudy-4-predm-zelenyy__1049688_pe844336_s5-780x780.jpeg"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "AURORA АВРОРА Салатник, прозрачное стекло, 33х26.4 см",
+      "description": "Салатник стеклянный 33х26,4 см “Pasabahce Aurora” - это прекрасный выбор для сервировки стола. Он выполнен из качественного стекла и имеет стильный дизайн. Размеры салатника позволяют использовать его для подачи различных салатов, закусок и других блюд. Благодаря своей форме и размеру, он станет украшением любого стола. Салатник “Pasabahce Aurora” отлично подойдет как для домашнего использования, так и для ресторанов и кафе",
+      "material": "Стекло",
+      "sizeProduct": "Ширина 36.4 см, длина 33 см, высота 84 см, вес 1.571 кг.",
+      "category": {
+        "id": "posuda",
+        "name": "Посуда"
+      },
+      "newStatus": true,
+      "price": 14.99,
+      "stock": 33,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/50028633-780x780.jpg"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "VESKEN ВЕСКЕН Угловой стеллаж, белый, 33x33x71 см",
+      "description": "Он поместится в самых маленьких ванных комнатах, но на полках достаточно места для всех туалетных принадлежностей, от бутылок с шампунем до мыла и мелких предметов. Вы быстро и легко монтируете полку, соединяя элемент, защелкивая их без каких-либо инструментов. Все остается на месте, от шампуня и кондиционера до губок, потому что полка имеет высокие края со всех сторон. Идеально подходит для небольшой ванной комнаты",
+      "material": "Полипропилен",
+      "sizeProduct": "Ширина 33 см, глубина 33 см, высота 71 см",
+      "category": {
+        "id": "vannaya",
+        "name": "Ванная"
+      },
+      "newStatus": false,
+      "price": 34.99,
+      "stock": 5,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-12-01_185737218-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-12-01_185743702-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-12-01_185751281-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-12-01_185757606-780x780.png"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "ХЭЛЛЬВИ подушка на стул 40x38x5.0 см бежевый",
+      "description": "Пенополиуретан обеспечит оптимальную поддержку и комфорт. Также можно использовать на улице.",
+      "material": "Ткань: 100% полиэстер; Наполнитель: Пенополиуретан. Машинная стирка 30°С, деликатный режим. Не отбеливать. Не сушить в стиральной машине. Не гладить. Не подвергать химической чистке.",
+      "sizeProduct": "Ширина: 40 см, глубина: 38 см, толщина: 5 см.",
+      "category": {
+        "id": "tekstil",
+        "name": "Текстиль"
+      },
+      "newStatus": false,
+      "price": 9.99,
+      "stock": 27,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/7/9/om-ru-ru-images-products-hellvi-podushka-na-stul-bezhevyy__0980079_pe814827_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/7/9/om-ru-ru-images-products-hellvi-podushka-na-stul-bezhevyy__0980080_pe814828_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/7/9/om-ru-ru-images-products-hellvi-podushka-na-stul-bezhevyy__0980081_pe814829_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Подушка мягкая 50х60 см",
+      "description": "Если вы предпочитаете спать на мягкой подушке, эта подушка с неплотным наполнителем станет для вас отличным выбором. Подушку можно стирать в стиральной машине при температуре 60 °C. При этой температуре погибают пылевые клещи. Можно дополнить наперником, чтобы защитить подушку от загрязнений.",
+      "material": "100 % полое полиэстерное волокно (100 % переработанного материала). Ткань: волокно силиконизированное 'конжугейт', тик. Машинная стирка 40°С. Не отбеливать. Не сушить в стиральной машине. Не гладить. Не подвергать химической чистке.",
+      "sizeProduct": "Длина: 50 см, Ширина: 70 см, Вес наполнителя: 680 гр, Общий вес: 790 гр.",
+      "category": {
+        "id": "tekstil",
+        "name": "Текстиль"
+      },
+      "newStatus": false,
+      "price": 17.99,
+      "stock": 39,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-04-09_153618167-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-04-09_153636941-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-04-09_153649912-780x780.png"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "GUTEN MORGEN Полотенце для ног 50х70 см небесно-голубой",
+      "description": "Определенно, коврики серии GUTEN MORGEN - это приятное место для ваших ног после ванны или душа. Мягкий на ощупь 100 процентный хлопок, высокая плотность 650 г/м.кв., большой размер 50х70 см: ваши ножки этого достойны ) Прочная окраска не слезет после стирки и не боится воды от слова совсем ) Легко поддерживать в чистоте, так как можно стирать в машине. Машинная стирка 40°С. Не отбеливать. Машинная сушка, низкотемпературный режим. Можно гладить. Не подвергать химической чистке.",
+      "material": "Ворс: 100% хлопок.",
+      "sizeProduct": "Длина: 70 см, Ширина: 50 см, Плотность  650г/м.кв.",
+      "category": {
+        "id": "vannaya",
+        "name": "Ванная"
+      },
+      "newStatus": true,
+      "price": 24.99,
+      "stock": 62,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/ikeapl/nbt0efvcvpbn8nbjjenzcubclxrnb74j-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/gutenmorgen/img_146-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/gutenmorgen/img_148-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/gutenmorgen/img_149-780x780.jpg"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "MALIBU Полотенце 50х90 белый",
+      "description": "Мягкая ткань из хлопка впитывает влагу и быстро сохнет. Имеются разные размеры, цвета. Усадка: максимум 6 %. Машинная стирка 40 °С. Стирка перед использованием повышает впитывающую способность. Не отбеливать ! Машинная сушка при стандартной температуре ( максимум 80 °С ). Гладить в среднем температурном режиме . Не подвергать химической чистке.",
+      "material": "100% хлопок.",
+      "sizeProduct": "Длина- 90 см, ширина- 50 см. Плотность 380г/кв.м.",
+      "category": {
+        "id": "tekstil",
+        "name": "Текстиль"
+      },
+      "newStatus": false,
+      "price": 9.99,
+      "stock": 15,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/leroy/polotenca/img_0596-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/leroy/zmi/img_23-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/leroy/polotenca/img_0646-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/leroy/polotenca/img_0632-780x780.jpeg"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "RANEN РАНЕН Корзина на присосках с крючками, 26x21 см",
+      "description": "Эта корзина помогает организовать шампуни и другие бутылки в ванной комнате – без сверления отверстий в стене. Сильные присоски прочно прилипают к гладким поверхностям, таким как стекло и плитка.",
+      "material": "Корзина: ABS пластик; насадка для всасывания:; Поликарбонат, АБС-пластик, синтетический каучук Крючок: сталь, покрытие никеля. Уход. Протрите тканью, смоченной мягким чистящим средством. Протрите чистой сухой тканью.",
+      "sizeProduct": "Глубина: 13 см; Высота: 21 см; Ширина: 26 см; Максимальный вес: 4 кг.",
+      "category": {
+        "id": "vannaya",
+        "name": "Ванная"
+      },
+      "newStatus": false,
+      "price": 29.99,
+      "stock": 14,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-01-21_103927693-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-01-21_104001036-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-01-21_103947851-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-01-21_103940630-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-01-21_103934202-780x780.png"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "FISKBO ФИСКБУ рама 21*30 см белый",
+      "description": "Украсьте интерьер картинами и фотографиями. Рамы этой серии протестированы и одобрены для использования в детской комнате и представлены в разных вариантах размеров. Защитный лист из пластика безопасен и не искажает изображение. Можно повесить или поставить горизонтально или вертикально.Защитный фронтальный лист из пластика обеспечивает безопасное использование. Для разных стен требуются различные крепежные приспособления. Подберите подходящие для ваших стен шурупы, дюбели, саморезы и т. п. (не прилагаются).",
+      "material": "Рама: ДВП, Пленка. Защитный лист: Полистирол. Задняя панель/ Подставка для рамки: Цельный картон, Акриловая краска. Чистить щеточкой для удаления пыли.",
+      "sizeProduct": "Для картины шириной: 21 см, Для картины высотой: 30 см, Ширина рамы: 24 см, Высота рамы: 33 см.",
+      "category": {
+        "id": "interior",
+        "name": "Интерьер"
+      },
+      "newStatus": false,
+      "price": 11.99,
+      "stock": 18,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/1/6/om-ru-ru-images-products-fiskbo-fiskbu-rama-belyy__0638112_pe698717_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/1/6/om-ru-ru-images-products-fiskbo-fiskbu-rama-belyy__0903389_pe513717_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/1/6/om-ru-ru-images-products-fiskbo-fiskbu-rama-belyy__0904279_pe597638_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/1/6/om-ru-ru-images-products-fiskbo-fiskbu-rama-belyy__0939352_ph167918_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "BINTJE БИНТЬЕ кашпо 9 оцинковка",
+      "description": "Придайте вашему дому и растениям в нем обновленный вид. Это можно сделать без особых затрат с помощью разнообразных кашпо из нашего ассортимента. Подчеркните стиль интерьера или сезонность, а может быть, выберите яркий цветовой акцент.",
+      "material": "",
+      "sizeProduct": "Высота: 10 см, внешний диаметр: 11 см, макс. диам. цветочного горшка: 9 см, Внутренний диаметр: 10 см.",
+      "category": {
+        "id": "interior",
+        "name": "Интерьер"
+      },
+      "newStatus": false,
+      "price": 2.99,
+      "stock": 4,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/1/5/om-ru-ru-images-products-bintje-binte-kashpo-ocinkovka__0638860_pe699222_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/1/5/om-ru-ru-images-products-bintje-binte-kashpo-ocinkovka__0899418_pe724767_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/1/5/om-ru-ru-images-products-bintje-binte-kashpo-ocinkovka__0899171_pe639172_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/1/5/om-ru-ru-images-products-bintje-binte-kashpo-ocinkovka__0768629_pe754507_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "CILINDR ваза 25 см прозрачное стекло",
+      "description": "",
+      "material": "Стекло",
+      "sizeProduct": "Высота: 27 см, диаметр: 8 см.",
+      "category": {
+        "id": "interior",
+        "name": "Интерьер"
+      },
+      "newStatus": true,
+      "price": 9.99,
+      "stock": 103,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/leroy/vaza-43767-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/leroy/orig-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/leroy/153398994-780x780.jpeg"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "CISSAN ЦИССЭН салфетница 23x23 см водный гиацинт",
+      "description": "Изготовлено вручную – каждое изделие уникально. Натуральный материал наполняет дом гармонией природы и дарит ощущение спокойствия и тепла. Подходит для салфеток 40x40 см.",
+      "material": "Основные части: Водяной гиацинт, Прозрачный нитролак; Каркас: Сталь, Эпоксидное/полиэстерное порошковое покрытие.Вытирать чистой сухой тканью.",
+      "sizeProduct": "Длина: 23 см, ширина: 23 см, высота: 7 см.",
+      "category": {
+        "id": "interior",
+        "name": "Интерьер"
+      },
+      "newStatus": false,
+      "price": 39.99,
+      "stock": 6,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/3/3/om-ru-ru-images-products-cissan-cissen-salfetnica-vodnyy-giacint__0439528_pe592131_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/3/3/om-ru-ru-images-products-cissan-cissen-salfetnica-vodnyy-giacint__0895772_pe612901_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/3/3/om-ru-ru-images-products-cissan-cissen-salfetnica-vodnyy-giacint__0439529_pe592130_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "FINTSEN ФИНТСЕН Коврик для ванной, серый 40x60 см",
+      "description": "Коврик ФИНТСЕН универсален и легко впишется в ванную комнату любого стиля. Легко содержать в чистоте, так как можно стирать в машине. Не скользит, так как низ коврика прорезинен.",
+      "material": "Ворс: 100% полиэстер (мин. 90 % переработанного материала)Подкладка: 50% натуральный/50% синтетический латекс.",
+      "sizeProduct": "Длина: 60 см, ширина: 40 см, площадь: 0.24 м², вес: 1050 гр/м².",
+      "category": {
+        "id": "vannaya",
+        "name": "Ванная"
+      },
+      "newStatus": false,
+      "price": 11.99,
+      "stock": 39,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/fintsen-kovrik-dlya-vannoy-seryy__0974067_pe812273_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/fintsen-kovrik-dlya-vannoy-seryy__1005728_pe825504_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/fintsen-kovrik-dlya-vannoy-seryy__1036262_pe838383_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/fintsen-kovrik-dlya-vannoy-seryy__0974068_pe812275_s5-780x780.jpeg"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "FEJKA ФЕЙКА искусственное растение, трава",
+      "description": "Идеальное решение для тех, кто не чувствует в себе способности к цветоводству и не хочет тратить время на полив и уход за комнатными цветами. Искусственное растение выглядит как живое и сохраняет привлекательный внешний вид на долгие годы. Отличное решение, если Вы не можете завести живые растения, но хотите наслаждаться красотой природы. Подходит для использования в помещении и на улице.",
+      "material": "Растение: Полиэтилен. Винт: Нержавеющая сталь. Внутреннее кашпо: Полипропилен, бетон, полиэтилен.",
+      "sizeProduct": "Высота: 21 см, диаметр цветочного горшка: 9 см.",
+      "category": {
+        "id": "interior",
+        "name": "Интерьер"
+      },
+      "newStatus": true,
+      "price": 15.99,
+      "stock": 138,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/akcijanojabr/fejka-feyka-iskusstvennoe-rastenie-v-gorshke-d-doma-ulicy-trava__0130933_pe285358_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/1/9/om-ru-ru-images-products-fejka-feyka-iskusstvennoe-rastenie-v-gorshke-d-doma-ulicy-trava__0703504_pe724766_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/1/9/om-ru-ru-images-products-fejka-feyka-iskusstvennoe-rastenie-v-gorshke-d-doma-ulicy-trava__0899418_pe724767_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/1/9/om-ru-ru-images-products-fejka-feyka-iskusstvennoe-rastenie-v-gorshke-d-doma-ulicy-trava__0247658_pe386551_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/ikeapl/img_164-780x780.jpg"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "FENOMEN ФЕНОМЕН неароматическая свеча формовая 14 см естественный",
+      "description": "Мерцание свечи создаст располагающую атмосферу в любой момент — осветит темное зимнее утро, превратит обычный обед в романтический и сделает комнату более уютной.",
+      "material": "Растительный воск, парафиновый воск.",
+      "sizeProduct": "Высота: 14 см, Диаметр: 7 см, Время горения: 45 ч.",
+      "category": {
+        "id": "interior",
+        "name": "Интерьер"
+      },
+      "newStatus": false,
+      "price": 11.99,
+      "stock": 13,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/1/6/om-ru-ru-images-products-fenomen-nearomatich-svecha-formovaya-estestvennyy__0641111_pe700259_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/1/6/om-ru-ru-images-products-fenomen-nearomatich-svecha-formovaya-estestvennyy__0122741_pe084324_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/1/6/om-ru-ru-images-products-fenomen-nearomatich-svecha-formovaya-estestvennyy__0903821_pe586188_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "FENOMEN ФЕНОМЕН Свеча без запаха, серебро, 19 см/70 часов",
+      "description": "Свечи могут создать нужную атмосферу в любой момент: они могут скрасить темное утро, сделать ужин на двоих более романтичным или сделать комнату более теплой и уютной.",
+      "material": "Растительный воск, парафин.",
+      "sizeProduct": "Высота: 19 см, диаметр: 6,8 см, время горения: 70 часов",
+      "category": {
+        "id": "interior",
+        "name": "Интерьер"
+      },
+      "newStatus": false,
+      "price": 14.99,
+      "stock": 16,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2023-01-25_110330762-780x780.png"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "FISKBO ФИСКБУ рама 30x40 белый",
+      "description": "Украсьте интерьер картинами и фотографиями. Рамы этой серии протестированы и одобрены для использования в детской комнате и представлены в разных вариантах размеров. Защитный лист из пластика безопасен и не искажает изображение. Можно повесить или поставить горизонтально или вертикально.Защитный фронтальный лист из пластика обеспечивает безопасное использование. Для разных стен требуются различные крепежные приспособления. Подберите подходящие для ваших стен шурупы, дюбели, саморезы и т. п. (не прилагаются).",
+      "material": "Рама: ДВП, Пленка. Защитный лист: Полистирол. Задняя панель/ Подставка для рамки: Цельный картон, Акриловая краскаЧистить щеточкой для удаления пыли.",
+      "sizeProduct": "Для картины шириной: 30 см, Для картины высотой: 40 см, Ширина рамы: 33 см, Высота рамы: 43 см.",
+      "category": {
+        "id": "interior",
+        "name": "Интерьер"
+      },
+      "newStatus": false,
+      "price": 19.99,
+      "stock": 47,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/1/6/om-ru-ru-images-products-fiskbo-fiskbu-rama-belyy__0638112_pe698717_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/1/6/om-ru-ru-images-products-fiskbo-fiskbu-rama-belyy__0903389_pe513717_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/1/6/om-ru-ru-images-products-fiskbo-fiskbu-rama-belyy__0904279_pe597638_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/1/6/om-ru-ru-images-products-fiskbo-fiskbu-rama-belyy__0939352_ph167918_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "FISKBO ФИСКБУ Рамка для фото, 21x30 см, чёрный",
+      "description": "Украсьте интерьер картинами и фотографиями. Рамы этой серии протестированы и одобрены для использования в детской комнате и представлены в разных вариантах размеров. Защитный лист из пластика безопасен и не искажает изображение. Можно повесить или поставить горизонтально или вертикально.Защитный фронтальный лист из пластика обеспечивает безопасное использование. Для разных стен требуются различные крепежные приспособления. Подберите подходящие для ваших стен шурупы, дюбели, саморезы и т. п. (не прилагаются).",
+      "material": "Рама: ДВП, Пленка. Защитный лист: Полистирол. Задняя панель/ Подставка для рамки: Цельный картон, Акриловая краска. Чистить щеточкой для удаления пыли.",
+      "sizeProduct": "Для картины шириной: 21 см, Для картины высотой: 30 см, Ширина рамы: 24 см, Высота рамы: 33 см.",
+      "category": {
+        "id": "interior",
+        "name": "Интерьер"
+      },
+      "newStatus": false,
+      "price": 11.99,
+      "stock": 14,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/1/7/om-ru-ru-images-products-fiskbo-fiskbu-rama-chernyy__0638096_pe698701_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/1/7/om-ru-ru-images-products-fiskbo-fiskbu-rama-chernyy__0902362_pe513711_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/1/7/om-ru-ru-images-products-fiskbo-fiskbu-rama-chernyy__0904318_pe597631_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "FISKBO ФИСКБУ Рамка для фото, 30x40 черный",
+      "description": "Украсьте интерьер картинами и фотографиями. Рамы этой серии протестированы и одобрены для использования в детской комнате и представлены в разных вариантах размеров. Защитный лист из пластика безопасен и не искажает изображение. Можно повесить или поставить горизонтально или вертикально.Защитный фронтальный лист из пластика обеспечивает безопасное использование. Для разных стен требуются различные крепежные приспособления. Подберите подходящие для ваших стен шурупы, дюбели, саморезы и т. п. (не прилагаются).",
+      "material": "Рама: ДВП, Пленка. Защитный лист: Полистирол. Задняя панель/ Подставка для рамки: Цельный картон, Акриловая краскаЧистить щеточкой для удаления пыли.",
+      "sizeProduct": "Для картины шириной: 30 см, Для картины высотой: 40 см, Ширина рамы: 33 см, Высота рамы: 43 см.",
+      "category": {
+        "id": "interior",
+        "name": "Интерьер"
+      },
+      "newStatus": true,
+      "price": 19.99,
+      "stock": 55,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/1/3/om-ru-ru-images-products-fiskbo-fiskbu-rama-chernyy__0638100_pe698705_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-08-06_124718480-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-08-06_124738269-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-08-06_124752908-780x780.png"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "KRUSFRÖ Пододеяльник и наволочка, 150x200/50x60 см",
+      "description": "Прохладный мягкий пододеяльник с геометрическим рисунком. Тканый из хлопка, полученного из экологически чистых культур-прочного натурального материала, который дышит и впитывает влагу, поэтому вы можете спокойно спать всю ночь. Количество ниток: 152. Количество нитей означает количество использованных нитей на квадратный дюйм ткани. Чем больше число, тем плотнее тканая ткань. Каждая наволочка изготовлена из случайно вырезанного материала, поэтому каждая имеет уникальный внешний вид.",
+      "material": "100% хлопок. Машинная стирка макс. 60°C, нормальная программа. Стирать вместе с вещами аналогичного цвета. Не отбеливать. Можно сушить в сушилке, нормальная температура (макс. 80°C). Гладить, макс. 200°C. Не химчистка.",
+      "sizeProduct": "Длина наволочки: 50 см, ширина наволочки: 60 см, количество наволочек: 1 шт, длина пододеяльника: 200 см, ширина пододеяльника: 150 см.",
+      "category": {
+        "id": "tekstil",
+        "name": "Текстиль"
+      },
+      "newStatus": false,
+      "price": 99.99,
+      "stock": 3,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-04-25_122014058-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-04-25_122026169-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-04-25_122038295-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-04-25_122413333-780x780.png"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "BÖRJA БОРЬЯ Чашка-поильник для детей, 200 мл",
+      "description": "С этим поильником ваш малыш быстрее научится пить самостоятельно благодаря носику и большим удобным ручкам. Изготовлено из безвредного пластика, использующегося также для производства детских бутылочек, одноразовых пеленок и контейнеров для пищевых продуктов. Благодаря прозрачным вставкам, вы можете видеть, сколько жидкости осталось в поильнике. Плотно прилегающая крышка предотвратит проливание. Но если ребенок перевернет поильник, содержимое может вытечь через отверстие в носике.",
+      "material": "Полипропилен. Можно использовать в СВЧ-печи; при нагревании пищи до 100°C. Можно мыть в посудомоечной машине (макс 70°С).",
+      "sizeProduct": "Объем: 200 мл, ширина: 11 см, высота: 8 см, длина: 12 см",
+      "category":  {
+        "id": "detyam",
+        "name": "Детям"
+      },
+      "newStatus": true,
+      "price": 11.99,
+      "stock": 30,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/8/9/om-ru-ru-images-products-boerja-borya-chashka-poilnik__0712266_pe728704_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-10-17_140451371-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/8/9/om-ru-ru-images-products-boerja-borya-chashka-poilnik__0873261_pe614025_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/8/9/om-ru-ru-images-products-boerja-borya-chashka-poilnik__0873256_pe611453_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "FABLER BJÖRN ФАБЛЕР БЬЁРН Мягкая игрушка, бежевый",
+      "description": "Этот мишка с большим сердцем всегда готов выслушать детские секреты, играть, веселиться и шалить. Яркие, контрастные цвета и мягкий материал стимулируют зрение и осязание ребенка. Яркие контрастные цвета развивают зрение ребенка. Все мягкие игрушки хороши для веселья, игр и шалостей. Кроме того, они надежны и безопасны. Рекомендовано для детей от 1 года.",
+      "material": "Ткань: 100 % полиэстер; Наполнитель: 100 % полиэстер - полое волокноМашинная стирка 40°С, деликатный режим. Не отбеливать. Не сушить в стиральной машине.Не гладить. Не подвергать химической чистке.",
+      "sizeProduct": "Длина: 21 см.",
+      "category": {
+        "id": "detyam",
+        "name": "Детям"
+      },
+      "newStatus": false,
+      "price": 8.99,
+      "stock": 2,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/8/1/om-ru-ru-images-products-fabler-bjoern-fabler-byorn-myagkaya-igrushka-bezhevyy__0710165_pe727396_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/8/1/om-ru-ru-images-products-fabler-bjoern-fabler-byorn-myagkaya-igrushka-bezhevyy__0876865_pe611124_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/8/1/om-ru-ru-images-products-fabler-bjoern-fabler-byorn-myagkaya-igrushka-bezhevyy__0876876_pe611263_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/8/1/om-ru-ru-images-products-fabler-bjoern-fabler-byorn-myagkaya-igrushka-bezhevyy__0956866_ph143108_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "FÖRSIKTIG ФЁРСИКТИГ табурет детский белый/зеленый",
+      "description": "Теперь ваш ребенок сможет видеть себя в зеркале над раковиной! И дотянуться до зубной щетки, и сам почистить зубы, и даже шепнуть вам что-нибудь на ушко, почти не вставая на цыпочки. Нескользкое покрытие сверху уменьшает риск поскользнуться. Противоскользящий материал обеспечивает устойчивость табурета на полу. Для детей весом макс. 35 кг.",
+      "material": "Полипропилен, Синтетический каучукВытирать чистой сухой тканью. Протирать мягкой тканью, смоченной в воде. При необходимости использовать неабразивное моющее средство или мыло.",
+      "sizeProduct": "Ширина: 37 см, глубина: 24 см, высота: 13 см, макс нагрузка: 35 кг.",
+      "category": {
+        "id": "detyam",
+        "name": "Детям"
+      },
+      "newStatus": true,
+      "price": 16.99,
+      "stock": 82,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/8/0/om-ru-ru-images-products-foersiktig-fyorsiktig-taburet-detskiy-belyy-zelenyy__0712332_pe728740_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/8/0/om-ru-ru-images-products-foersiktig-fyorsiktig-taburet-detskiy-belyy-zelenyy__0873714_pe611753_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/8/0/om-ru-ru-images-products-foersiktig-fyorsiktig-taburet-detskiy-belyy-zelenyy__0873718_pe613791_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/8/0/om-ru-ru-images-products-foersiktig-fyorsiktig-taburet-detskiy-belyy-zelenyy__0255196_pe399536_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "KRAMIG КРАМИГ мягкая игрушка белый черный",
+      "description": "В дикой природе взрослая панда съедает около 38 кг бамбука каждый день! Но эта черно-белая красавица не нуждается в еде, а вот без любви ей не обойтись. Все мягкие игрушки подходят для веселых игр и теплых объятий. Кроме того, они надежны и безопасны.",
+      "material": "Ткань: 100 % полиэстер, наполнитель: 100 % полое полиэстерное волокно. Машинная стирка 40°С, деликатный режим. Не отбеливать, не гладить, не подвергать химической чистке.",
+      "sizeProduct": "Длина: 30 см.",
+      "category": {
+        "id": "detyam",
+        "name": "Детям"
+      },
+      "newStatus": false,
+      "price": 22.99,
+      "stock": 18,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/8/3/om-ru-ru-images-products-kramig-myagkaya-igrushka-belyy-chernyy__0162448_pe317642_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-10-17_125422279-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/8/3/om-ru-ru-images-products-kramig-myagkaya-igrushka-belyy-chernyy__0877492_pe611137_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/8/3/om-ru-ru-images-products-kramig-myagkaya-igrushka-belyy-chernyy__0877504_pe611253_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "LILLABO ЛИЛЛАБУ Железная дорога, 45 предметов",
+      "description": "Любимая игра детей всех возрастов. Путешествия, перевозка грузов, подготовка железнодорожных составов и прокладка путей. Маленькие инженеры с интересом решат все проблемы, возникающие на железной дороге. Этот поезд оправляется в увлекательное путешествие по самому необычному маршруту. Впереди — таинственный тоннель. Подходит к большинству продаваемых детских железных дорог.",
+      "material": "Рельсы: Массив бука,Средства передвижения: Массив бука, Акриловая краска, Прозрачный акриловый лак; Тоннель: Пластмасса АБС; Колесо: Полиэтилен; Ось/ Гвоздь: Сталь, Гальванизация.",
+      "sizeProduct": "",
+      "category": {
+        "id": "detyam",
+        "name": "Детям"
+      },
+      "newStatus": false,
+      "price": 119.99,
+      "stock": 1,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/113/lillabo-lillabu-zheleznaya-doroga-45-predm-__0712397_pe728813_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/113/lillabo-lillabu-zheleznaya-doroga-45-predm-__0877002_pe647251_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/113/lillabo-lillabu-zheleznaya-doroga-45-predm-__0877016_pe647254_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/8/0/om-ru-ru-images-products-lillabo-lillabu-zheleznaya-doroga-nabor-20-predm-raznocvetnyy__0876965_pe625236_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 46,
+      "title": "LOCKIG ЛОККИГ горшок детский",
+      "description": "Этот предмет просто необходим, когда вы начинаете отучать ребенка от подгузников. Съемную вставку легко мыть. Горшок не скользит, а благодаря эргономичной форме ребенку удобно на нем сидеть. С противоскользящим покрытием; горшок устойчив.",
+      "material": "Полипропилен, Синтетический каучук. Протирать мягким мыльным раствором.",
+      "sizeProduct": "Длина: 36 см, ширина: 27 см, высота: 28 см.",
+      "category": {
+        "id": "detyam",
+        "name": "Детям"
+      },
+      "newStatus": false,
+      "price": 34.99,
+      "stock": 29,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/8/2/om-ru-ru-images-products-lockig-lokkig-gorshok-belyy-zelenyy__0712339_pe728741_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/8/2/om-ru-ru-images-products-lockig-lokkig-gorshok-belyy-zelenyy__0874075_pe611749_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/8/2/om-ru-ru-images-products-lockig-lokkig-gorshok-belyy-zelenyy__0874085_pe611752_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/8/2/om-ru-ru-images-products-lockig-lokkig-gorshok-belyy-zelenyy__0874081_pe611750_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 47,
+      "title": "MAMMUT МАММУТ Детский стул, д/дома/улицы/синий",
+      "description": "Прочная и легкая мебель МАММУТ легко выдержит капризы погоды и даже самые дикие игры. Отлично подходит для использования на открытом воздухе и легко чистится, когда пришло время переместиться внутрь.Мебель легкая, но устойчивая, и ребенок может переносить ее из комнаты в комнату или выносить в сад. Изготовлен из безвредного материала, из того же материала, что и детские бутылочки, одноразовые подгузники и контейнеры для пищевых продуктов. Он также идеально подходит для использования на открытом воздухе, так как изготовлен из материалов, устойчивых к дождю, солнцу, снегу и грязи. Простая сборка - просто соедините элементы.",
+      "material": "Полипропиленовый пластик. Протрите тканью, смоченной в мягком моющем средстве. Протрите сухой тканью.",
+      "sizeProduct": "Ширина: 39 см, глубина: 36 см, рост: 67 см, глубина сиденья: 26 см, высота сиденья: 30 см.",
+      "category": {
+        "id": "detyam",
+        "name": "Детям"
+      },
+      "newStatus": false,
+      "price": 59.99,
+      "stock": 11,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-12-08_161909436-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-12-08_161928595-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-12-08_161944562-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-12-08_162000089-780x780.png"
+      ]
+    },
+    {
+      "id": 48,
+      "title": "ВИТМУССА Плед, серый, 120x160 см",
+      "description": "Устраиваясь в любимом кресле, укутайтесь в этот полосатый плед. Или захватите его на следующий пикник. Легкий флис почти не занимает места, а потом его можно постирать в машинке.",
+      "material": "100% полиэстер (100 % переработанного материала). Уход: Машинная стирка 40°С. Не отбеливать. Не сушить в стиральной машине. Не гладить. Не подвергать химической чистке.",
+      "sizeProduct": "Длина: 160 см, ширина: 120 см.",
+      "category": {
+        "id": "tekstil",
+        "name": "Текстиль"
+      },
+      "newStatus": false,
+      "price": 14.99,
+      "stock": 42,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-10-18_114244261-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-10-18_114256642-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-10-18_114313341-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-10-18_114338838-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-10-18_114357087-780x780.png"
+      ]
+    },
+    {
+      "id": 49,
+      "title": "UPPSTÅ УППСТА Формы, разноцветные",
+      "description": "Устанавливай, сортируй, строй! Когда ваш ребенок может исследовать  вещи самостоятельно, он приобретает много новых навыков. УППСТА развивает координацию движений и логическое мышление. В комплекте: 7 чашек разных форм и цветов. Каждая часть тщательно проверяется и выдерживает бросание, удары и жевание вашего ребенка.",
+      "material": "Полипропилен, синтетический каучук.",
+      "sizeProduct": "Высота: 34 см, диаметр основания: 8 см.",
+      "category": {
+        "id": "detyam",
+        "name": "Детям"
+      },
+      "newStatus": false,
+      "price": 10.99,
+      "stock": 15,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-15_105243896-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-15_105250867-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-15_105256643-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-15_105303377-780x780.png"
+      ]
+    },
+    {
+      "id": 50,
+      "title": "HOLMVI ХОЛМВИ Плед, розовый, 120x160 см",
+      "description": "Этот мягкий розовый плед с бахромой сделает уютнее вечер на диване или пикник на свежем воздухе. Изготовлен из переработанного полиэстера.",
+      "material": "100% полиэстер (мин. 90 % переработанного материала). Машинная стирка, макс. 30 °C, программа деликатной стирки. Не отбеливать. Не сушить в стиральной машине. Гладить в низком температурном режиме. Не подвергать химической чистке.",
+      "sizeProduct": "Длина: 160 см, ширина: 120 см.",
+      "category": {
+        "id": "tekstil",
+        "name": "Текстиль"
+      },
+      "newStatus": false,
+      "price": 29.99,
+      "stock": 6,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-02-04_115703742-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-02-04_115711304-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-02-04_115718181-780x780.png"
+      ]
+    },
+    {
+      "id": 51,
+      "title": "ANTILOP АНТИЛОП столешница для высокого стульчика",
+      "description": "Когда ваш ребенок учится есть самостоятельно, это может быть немного беспорядочно. Этот белый поднос с приподнятыми краями собирает еду и напитки, и его легко вытереть после еды.",
+      "material": "Полипропилен.",
+      "sizeProduct": "Длина: 42 см; ширина: 42 см; толщина: 4 см.",
+      "category": {
+        "id": "detyam",
+        "name": "Детям"
+      },
+      "newStatus": false,
+      "price": 29.99,
+      "stock": 23,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-12-10_104428071-780x780.png"
+      ]
+    },
+    {
+      "id": 52,
+      "title": "KALAS КАЛАС Миска, разные цвета",
+      "description": "Посуда ярких цветов, чтобы каждый мог выбрать любимый цвет. Материал не содержит вредных добавок. Не бьющийся пластик – экологичная альтернатива одноразовой посуде, ведь предметы серии КАЛАС можно использовать повторно. Можно складывать один на другой, что позволяет экономить место при хранении. Эту яркую и прочную посуду удобно держать. Отличное решение для малышей, которые только учатся есть самостоятельно.",
+      "material": "Полипропилен. Можно использовать в СВЧ-печи; при нагревании пищи до 100°C. Можно мыть в посудомоечной машине (макс 70°С).",
+      "sizeProduct": "Диаметр: 12 см, Количество в упаковке: 6 шт.",
+      "category": {
+        "id": "detyam",
+        "name": "Детям"
+      },
+      "newStatus": false,
+      "price": 8.99,
+      "stock": 31,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/kalas-miska-raznye-cveta__0998009_pe822911_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/kalas-miska-raznye-cveta__0998010_pe822912_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/kalas-tarelka-raznye-cveta__0998031_pe822921_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/kalas-lozhka-raznye-cveta__0873347_pe685646_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/kalas-lozhka-raznye-cveta__1047762_pe843512_s5-780x780.jpeg"
+      ]
+    },
+    {
+      "id": 53,
+      "title": "KALAS КАЛАС Стакан, разные цвета",
+      "description": "Посуда ярких цветов, чтобы каждый мог выбрать любимый цвет. Материал не содержит вредных добавок. Не бьющийся пластик – экологичная альтернатива одноразовой посуде, ведь предметы серии КАЛАС можно использовать повторно.Эту яркую и прочную посуду удобно держать. Отличное решение для малышей, которые только учатся есть самостоятельно. Можно складывать один на другой, что позволяет экономить место при хранении. Рекомендовано для детей от 0 лет.",
+      "material": "Полипропилен. Можно использовать в СВЧ-печи; при нагревании пищи до 100°C. Можно мыть в посудомоечной машине (макс 70°С).",
+      "sizeProduct": "Количество в упаковке: 6 шт, Объем: 230 мл, диаметр 8 см, высота 14 см.",
+      "category": {
+        "id": "detyam",
+        "name": "Детям"
+      },
+      "newStatus": true,
+      "price": 8.99,
+      "stock": 235,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/kalas-stakan-raznye-cveta__0998019_pe822917_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/kalas-stakan-raznye-cveta__0998020_pe822918_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/kalas-tarelka-raznye-cveta__0998032_pe822923_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/kalas-lozhka-raznye-cveta__0612202_pe685654_s5-780x780.jpeg"
+      ]
+    },
+    {
+      "id": 54,
+      "title": "KALAS КАЛАС Столовые приборы, 18 предм., разные цвета",
+      "description": "Посуда ярких цветов, чтобы каждый мог выбрать любимый цвет. Материал не содержит вредных добавок. Не бьющийся пластик – экологичная альтернатива одноразовой посуде, ведь предметы серии КАЛАС можно использовать повторно. Благодаря зазубренному лезвию ножа ребенок сможет легко резать и разделять пищу. Ребенку удобно держать в руке.",
+      "material": "Полипропилен. Можно использовать в СВЧ-печи; при нагревании пищи до 100°C. Можно мыть в посудомоечной машине (макс 70°С).",
+      "sizeProduct": "Длина: 19 см.",
+      "category": {
+        "id": "detyam",
+        "name": "Детям"
+      },
+      "newStatus": true,
+      "price": 8.99,
+      "stock": 120,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/ikeapl/kalas-stolovye-pribory-18-predm-raznye-cveta__0998014_pe822915_s5-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/ikeapl/kalas-stolovye-pribory-18-predm-raznye-cveta__0998015_pe822916_s5-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/ikeapl/kalas-stolovye-pribory-18-predm-raznye-cveta__0998031_pe822921_s5-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/ikeapl/kalas-stolovye-pribory-18-predm-raznye-cveta__0998032_pe822923_s5-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/ikeapl/kalas-stolovye-pribory-18-predm-raznye-cveta__0873347_pe685646_s5-780x780.jpg"
+      ]
+    },
+    {
+      "id": 55,
+      "title": "KALAS КАЛАС Тарелка, разные цвета",
+      "description": "Посуда ярких цветов, чтобы каждый мог выбрать любимый цвет. Материал не содержит вредных добавок. Не бьющийся пластик – экологичная альтернатива одноразовой посуде, ведь предметы серии КАЛАС можно использовать повторно. Тарелка с высоким краем; ребенку легче удержать содержимое на тарелке. Можно складывать один на другой, чтопозволяет экономить место при хранении.",
+      "material": "Полипропилен. Можно использовать в СВЧ-печи; при нагревании пищи до 100°C. Можно мыть в посудомоечной машине (макс 70°С).",
+      "sizeProduct": "Диаметр: 19 см, Количество в упаковке: 6 шт.",
+      "category": {
+        "id": "detyam",
+        "name": "Детям"
+      },
+      "newStatus": false,
+      "price": 8.99,
+      "stock": 101,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/kalas-tarelka-raznye-cveta__0998030_pe822920_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/kalas-tarelka-raznye-cveta__0998033_pe822922_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/kalas-tarelka-raznye-cveta__0998031_pe822921_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/kalas-lozhka-raznye-cveta__0612202_pe685654_s5-780x780.jpeg"
+      ]
+    },
+    {
+      "id": 56,
+      "title": "LILLABO ЛИЛЛАБУ Паровоз на батарейках",
+      "description": "Мечта маленьких водителей-Локомотив с батарейным питанием и кнопочным управлением сверху. Он также может отступать, и его освещение указывает путь вперед. Прицепные вагоны-вперед полным ходом! Локомотив загорается, когда он скользит по рельсам. Подходит для большинства продаваемых детских очередей. Батареи продаются отдельно. Мы рекомендуем 2 батареи LADDA HR03 AAA 1,2 Вт.",
+      "material": "Рама: ABS пластик. Нижняя часть: цинк, акриловая краска. Винты: сталь, гальванизированный, сталь, гальванизированный, АБС-пластик, АБС-пластик. Осевой вал / гвоздь: сталь, оцинкованная. Пластиковые детали: Полиэтиленовый пластик.",
+      "sizeProduct": "Ширина 13 см, высота 5 см, длина 15 см, вес 0.14 кг.",
+      "category": {
+        "id": "detyam",
+        "name": "Детям"
+      },
+      "newStatus": false,
+      "price": 34.99,
+      "stock": 4,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/new/lillabo-lillabu-parovoz-na-batareykah__0634350_pe696408_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-01-02_145159553-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-01-02_145208487-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-01-02_145223732-780x780.png"
+      ]
+    },
+    {
+      "id": 57,
+      "title": "LILLABO ЛИЛЛАБУ Поезд, 3 вагона",
+      "description": "Любимая игра детей всех возрастов. Путешествия, перевозка грузов, подготовка железнодорожных составов и прокладка путей. Маленькие инженеры с интересом решат все проблемы, возникающие на железной дороге.",
+      "material": "Деревянная часть/-и: Массив букаПластмассовая часть: Пластмасса АБС, Акриловая краска (печатный рисунок)Колесо: ПолиэтиленОсь/ Гвоздь: Сталь, ГальванизацияПротирать влажной тканью.",
+      "sizeProduct": "Ширина: 6 см, Высота: 4 см. Длина: 25 см, Вес: 0.17 кг.",
+      "category": {
+        "id": "detyam",
+        "name": "Детям"
+      },
+      "newStatus": false,
+      "price": 22.99,
+      "stock": 14,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/113/lillabo-lillabu-poezd-3-vagona__0712403_pe728819_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/113/lillabo-lillabu-poezd-3-vagona__0878173_pe625228_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/113/lillabo-lillabu-poezd-3-vagona__0878178_pe625229_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/113/lillabo-lillabu-poezd-3-vagona__0878166_pe625227_s5-780x780.jpeg"
+      ]
+    },
+    {
+      "id": 58,
+      "title": "MALA МОЛА Мелки, разные цвета",
+      "description": "Крупные мелки, которые легко держать в маленьких руках и которыми можно пользоваться как на доске, так и на асфальте.",
+      "material": "Карбонат кальция.",
+      "sizeProduct": "Длина: 8,5 см; Количество в упаковке: 9 шт.",
+      "category": {
+        "id": "detyam",
+        "name": "Детям"
+      },
+      "newStatus": false,
+      "price": 9.99,
+      "stock": 37,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/melki-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/melki1-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/melki2-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-12-24_163945227-780x780.png"
+      ]
+    },
+    {
+      "id": 59,
+      "title": "PIVRING ПИВРИГ Рюкзак, 24x8x34 см/9 л, светло-серый",
+      "description": "В этом рюкзаке есть место для контейнера для завтрака, сменной одежды, компьютера и планшета с диагональю 14”. В наружный сетчатый карман поместится бутылка воды и бейсболка. Идеальный аксессуар для школы или короткого путешествия.",
+      "material": "100% полиэстер (мин. 90 % переработанного материала).",
+      "sizeProduct": "Объем: 9 л, ширина: 24 см, глубина: 8 см, высота: 34 см.",
+      "category": {
+        "id": "tekstil",
+        "name": "Текстиль"
+      },
+      "newStatus": false,
+      "price": 11.99,
+      "stock": 36,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-14_173032193-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-14_173039756-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-14_173157670-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-14_173213930-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-14_173226926-780x780.png"
+      ]
+    },
+    {
+      "id": 60,
+      "title": "SOCKERÄRT СОККЕРЭРТ Ваза/кувшин, темно-серо-бежевый, 22 см",
+      "description": "Ваза с цветами может украсить ваш день. ВАЗа SOCKERÄRT прекрасно смотрится с одной веточкой, впечатляющим букетом, но и без каких-либо дополнительных украшений, сам по себе являясь украшением. И вы также можете использовать его как кувшин, если хотите! Установите вазу с цветами или без них, как красивый предмет сам по себе. Вы также можете использовать его как кувшин.",
+      "material": "Cталь, эмаль.",
+      "sizeProduct": "Высота 22 см, объём 1,4 л.",
+      "category": {
+        "id": "interior",
+        "name": "Интерьер"
+      },
+      "newStatus": false,
+      "price": 59.99,
+      "stock": 7,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-01-20_164151054-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-01-20_164159890-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-01-20_164207925-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-01-20_164214222-780x780.png"
+      ]
+    },
+    {
+      "id": 61,
+      "title": "BLANDA BLANK БЛАНДА БЛАНК сервировочная миска 20 см нержавеющая сталь",
+      "description": "Зачем усложнять? Эта миска так же проста по дизайну, как и по функциональности. Посуду из нержавеющей стали легко поддерживать в чистоте, она прослужит вам долгое время.",
+      "material": "Нержавеющая сталь. Можно мыть в посудомоечной машине.",
+      "sizeProduct": "Высота: 9 см, диаметр: 20 см.",
+      "category": {
+        "id": "posuda",
+        "name": "Посуда"
+      },
+      "newStatus": false,
+      "price": 19.99,
+      "stock": 2,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/3/4/om-ru-ru-images-products-blanda-blank-blanda-blank-servirovochnaya-miska-nerzhaveyushch-stal__0712888_pe729126_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/3/4/om-ru-ru-images-products-blanda-blank-blanda-blank-servirovochnaya-miska-nerzhaveyushch-stal__0172742_pe193769_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/3/4/om-ru-ru-images-products-blanda-blank-blanda-blank-servirovochnaya-miska-nerzhaveyushch-stal__0899003_pe609075_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/3/4/om-ru-ru-images-products-blanda-blank-blanda-blank-servirovochnaya-miska-nerzhaveyushch-stal__0462828_pe140053_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 62,
+      "title": "BLOMNING БЛОМНИНГ банка для кофе/чая 10x10x10 см",
+      "description": "Декоративный – идеален для хранения чая. Эта металлическая банка с крышкой защищает содержимое от кислорода и света, которые в противном случае могут разрушить как аромат, так и вкус.Удобно хранить чай, кофе и другие сыпучие продукты. Вымойте изделие перед первым использованием.",
+      "material": "Луженая сталь, Краска. Мыть только вручную.",
+      "sizeProduct": "Длина: 10 см, Ширина: 10 см, Высота: 10 см.",
+      "category":  {
+        "id": "posuda",
+        "name": "Посуда"
+      },
+      "newStatus": false,
+      "price": 14.99,
+      "stock": 60,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/3/2/om-ru-ru-images-products-blomning-banka-dlya-kofe-chaya__0711405_pe728255_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/3/2/om-ru-ru-images-products-blomning-banka-dlya-kofe-chaya__0897453_pe690998_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/3/2/om-ru-ru-images-products-blomning-banka-dlya-kofe-chaya__0948292_pe798959_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/3/2/om-ru-ru-images-products-blomning-banka-dlya-kofe-chaya__0668627_ph153790_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 63,
+      "title": "BLOMNING БЛОМНИНГ банка для кофе/чая 11х7х20 см",
+      "description": "Удобно хранить чай, кофе и другие сыпучие продукты. Вымойте изделие перед первым использованием.",
+      "material": "Луженая сталь, Краска. Мыть только вручную.",
+      "sizeProduct": "Длина: 11 см, Ширина: 7 см, Высота: 20 см.",
+      "category":  {
+        "id": "posuda",
+        "name": "Посуда"
+      },
+      "newStatus": false,
+      "price": 19.99,
+      "stock": 16,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/3/2/om-ru-ru-images-products-blomning-banka-dlya-kofe-chaya__0711404_pe728230_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/3/2/om-ru-ru-images-products-blomning-banka-dlya-kofe-chaya__0897375_pe691002_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/3/2/om-ru-ru-images-products-blomning-banka-dlya-kofe-chaya__0948297_pe798958_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/3/2/om-ru-ru-images-products-blomning-banka-dlya-kofe-chaya__0668347_ph153782_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/3/2/om-ru-ru-images-products-blomning-banka-dlya-kofe-chaya__1061371_ph172137_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 64,
+      "title": "CASABLANKA бокал для вина 240 мл, прозрачное стекло",
+      "description": "Изделия турецкого производителя Pasabahce удачно сочетают в себе красоту, прочность и безопасность при использовании. Даже после долгой эксплуатации посуда не теряет привлекательного внешнего вида. Утолщения на краях придают изделиям большую устойчивость и прочность. В пользу прочности говорит и то, что посуду этой компании можно без опаски мыть в посудомоечных машинах.",
+      "material": "Стекло.",
+      "sizeProduct": "Объём: 240 мл, ширина: 8 см, высота: 16 см.",
+      "category": {
+        "id": "posuda",
+        "name": "Посуда"
+      },
+      "newStatus": false,
+      "price": 4.99,
+      "stock": 61,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/f0288ba7a83b8aefeefb438ca0d72f4e-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-03-11_162747486-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-03-11_162911684-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-03-11_162802711-780x780.png"
+      ]
+    },
+    {
+      "id": 65,
+      "title": "CASABLANKA Кувшин 1,15 л, прозрачное стекло",
+      "description": "Эта посуда лаконичного дизайна украсит любую трапезу. Изготовлена из стекла, которое подходит для холодных напитков.Материал изделия: Основная часть: прозрачное стекло. Благодаря форме кувшина и ручки, использование намного удобнее. На кувшине есть увесистое дно, для большей устойчивости на столе.",
+      "material": "Стекло.",
+      "sizeProduct": "Объем: 1,15 л, высота: 22 см , верхний диаметр: 9 см, нижний диаметр: 9 см.",
+      "category": {
+        "id": "posuda",
+        "name": "Посуда"
+      },
+      "newStatus": true,
+      "price": 9.99,
+      "stock": 110,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/leroy/pasabahce-43614-4-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/leroy/kuvshin-steklyannyy-gladkiy-bez-kryshki-pasabahce-kasablanka-115-l-43614-sl-58557077565966-780x780.jpeg"
+      ]
+    },
+    {
+      "id": 66,
+      "title": "CESNI Банка с крышкой 1,1 л, прозрачное стекло",
+      "description": "Прозрачный материал, из которого сделана емкость, позволяет увидеть содержимое независимо от того, где она стоит. Банка с герметичной крышкой идеально подходит для хранения сыпучих продуктов.",
+      "material": "Основная часть/ Крышка: Стекло, Прокладка: Силиконовый каучук. Можно мыть в посудомоечной машине.",
+      "sizeProduct": "Диаметр: 10 см, высота: 22 см, объем: 1,1 л.",
+      "category": {
+        "id": "posuda",
+        "name": "Посуда"
+      },
+      "newStatus": false,
+      "price": 7.99,
+      "stock": 1,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/bor/1591972-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/bor/thumb_29457_product_catalog_big-780x780.jpeg"
+      ]
+    },
+    {
+      "id": 67,
+      "title": "FULLSPACKAD ФУЛЛСПЭККАД Поднос сервировочный, бамбук/черный28x20 см",
+      "description": "Идеальное решение, когда за столом собирается много гостей. На двухъярусный поднос можно поставить все необходимое — от бокалов и тарелок до закусок и снеков. Удобно переносить благодаря прочной ручке.",
+      "material": "Ручка/ Поднос: Бамбук, Масло Стойка: Сталь, Эпоксидное/полиэстерное порошковое покрытие. Перед началом использования необходимо обработать маслом, одобренным для контакта с пищевыми продуктами. Затем обработку следует регулярно повторять. Мыть только вручную.",
+      "sizeProduct": "Длина: 28 см, Ширина: 20 см, Высота: 27 см, Макс вес: 2.50 кг.",
+      "category": {
+        "id": "interior",
+        "name": "Интерьер"
+      },
+      "newStatus": false,
+      "price": 99.99,
+      "stock": 8,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-02-03_165722494-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-02-03_165809624-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-02-03_165819632-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-02-03_165731126-780x780.png"
+      ]
+    },
+    {
+      "id": 68,
+      "title": "ENOTEKA Бокал для вина, 615 мл, прозрачное стекло",
+      "description": "Изделия турецкого производителя Pasabahce удачно сочетают в себе красоту, прочность и безопасность при использовании. Даже после долгой эксплуатации посуда не теряет привлекательного внешнего вида. Утолщения на краях придают изделиям большую устойчивость и прочность. В пользу прочности говорит и то, что посуду этой компании можно без опаски мыть в посудомоечных машинах. Большая емкость хорошо удерживает аромат. Большой бокал округлой формы позволяет более полно почувствовать вкус и аромат вина.",
+      "material": "Стекло. Можно мыть в посудомоечной машине.",
+      "sizeProduct": "Высота: 23 см, объем: 620 мл.",
+      "category": {
+        "id": "posuda",
+        "name": "Посуда"
+      },
+      "newStatus": false,
+      "price": 5.99,
+      "stock": 55,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/leroy/5e447528-03bd-415b-a1b8-fbdf8ebd6c50-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/leroy/e6c78855-f279-11e0-a741-60eb69846dd5_3440e999-cd01-11e7-84bb-1c750867036f-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/leroy/0c1d2673-fe50-11e6-a1a1-6817295b23e4_ef417f59-fe62-11e6-83a9-1c750867036f-780x780.jpeg"
+      ]
+    },
+    {
+      "id": 69,
+      "title": "FÄRGRIK ФЭРГРИК Кружка, белый, 250 мл",
+      "description": "Вымойте продукт перед использованием в первый раз.",
+      "material": "Керамическая глина. Можно использовать в микроволновой печи. Можно мыть в посудомоечной машине.",
+      "sizeProduct": "Высота: 11 см, объем: 250 мл.",
+      "category": {
+        "id": "posuda",
+        "name": "Посуда"
+      },
+      "newStatus": false,
+      "price": 5.99,
+      "stock": 194,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/3/8/om-ru-ru-images-products-faergrik-fergrik-kruzhka-kamennaya-keramika-belyy__0711067_pe727942_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-11-15_162424283-780x780.png",
+        "https://mymisterdom.by/image/cache/catalog/3/8/om-ru-ru-images-products-faergrik-fergrik-kruzhka-kamennaya-keramika-belyy__0900101_pe609195_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/3/8/om-ru-ru-images-products-faergrik-fergrik-kruzhka-kamennaya-keramika-belyy__0172430_pe288855_s5-jpg-f-s-780x780.jpg"
+      ]
+    },
+    {
+      "id": 70,
+      "title": "FLUNDRA ФЛЮНДРА Сушилка для посуды, белый",
+      "description": "Обеспечивает место для большого количества вымытой посуды. На крючках на боковых поверхностях можно разместить 9 стаканов. Подходит также для больших тарелок диам. 32 см. Можно одновременно сушить 18 тарелок.",
+      "material": "Полипропилен. Мыть только вручную.",
+      "sizeProduct": "Длина: 46 см, ширина: 36 см, высота: 12 см.",
+      "category": {
+        "id": "posuda",
+        "name": "Посуда"
+      },
+      "newStatus": false,
+      "price": 17.99,
+      "stock": 16,
+      "images": [
+        "https://mymisterdom.by/image/cache/catalog/akcijaoktjabr/flundra-flyundra-sushilka-posudnaya-belyy__0712687_pe728972_s5-780x780.jpeg",
+        "https://mymisterdom.by/image/cache/catalog/3/9/om-ru-ru-images-products-flundra-flyundra-sushilka-posudnaya-belyy__0897742_pe610266_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/3/9/om-ru-ru-images-products-flundra-flyundra-sushilka-posudnaya-belyy__0185861_pe316825_s5-jpg-f-s-780x780.jpg",
+        "https://mymisterdom.by/image/cache/catalog/3/9/om-ru-ru-images-products-flundra-flyundra-sushilka-posudnaya-belyy__0141157_pe294405_s5-jpg-f-s-780x780.jpg"
+      ]
+    }
+  ],
+
+  "categories": [
+    {
+      "id": "hranenie",
+      "name": "Хранение"
+    },
+    {
+      "id": "vannaya",
+      "name": "Ванная"
+    },
+    {
+      "id": "interior",
+      "name": "Интерьер"
+    },
+    {
+      "id": "detyam",
+      "name": "Детям"
+    },
+    {
+      "id": "posuda",
+      "name": "Посуда"
+    },
+    {
+      "id": "tekstil",
+      "name": "Текстиль"
+    }
+  ]
+}

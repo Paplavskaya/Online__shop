@@ -1,0 +1,20 @@
+.contact-us__social{
+    display: flex;
+    gap: 10px;
+}
+
+.social__instagram,
+.social__facebook,
+.social__pinterest {
+    padding: 6px 6px 0 6px;
+    border-radius: 10px;
+}
+
+.messager__viber:hover,
+.messager__telegram:hover,
+.messager__whatsapp:hover,
+.social__instagram:hover,
+.social__facebook:hover,
+.social__pinterest:hover {
+    background-color: rgba(114, 142, 174, 0.3);
+}

@@ -32,10 +32,17 @@ body,
 }
 
 #root {
-    color: #171717;
+    color: #172542;
 }
 
 .ant-btn {
-    color: #171717;
+    color: #172542;
 }
 
+a {
+    color: #172542;
+}
+
+a:hover {
+    color: #728eae;
+}

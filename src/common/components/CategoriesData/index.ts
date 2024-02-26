@@ -1,0 +1,1 @@
+export { CategoriesData } from './CategoriesData'

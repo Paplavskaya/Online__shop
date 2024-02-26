@@ -1,0 +1,108 @@
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.categories__item {
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #d9e4f1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories__item:hover {
+    opacity: 60%;
+}
+
+.item__hranenie {
+    background: url('https://mymisterdom.by/image/cache/catalog/mebel/brimnes-komoda-3-szuflady-bialy-szklo-matowe__0859059_pe631488_s5-780x780.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.item__vannaya {
+    background: url('https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-14_140658912-780x780.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.item__interior {
+    background: url('https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-07-09_151729439-780x780.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.item__detyam{
+    background: url('https://mymisterdom.by/image/cache/catalog/izobrazhenie_2024-01-02_145208487-780x780.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.item__posuda {
+    background: url('https://mymisterdom.by/image/cache/catalog/izobrazhenie_2023-10-06_101614033-780x780.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.item__tekstil {
+    background: url('https://mymisterdom.by/image/cache/catalog/pasabahce/izobrazhenie_2022-10-18_115113491-780x780.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.item__hranenie {
+    background: url('https://mymisterdom.by/image/cache/catalog/mebel/brimnes-komoda-3-szuflady-bialy-szklo-matowe__0859059_pe631488_s5-780x780.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.categories__item__title {
+    color: #172542;
+    background-color:#fad89d;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .categories__item{
+        width: 250px;
+        height: 250px;
+    }
+
+    .categories__item__title {
+        font-size: 18px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 375px) {
+    .categories__item{
+        width: 150px;
+        height: 150px;
+    }
+
+    .categories__item__title {
+        font-size: 12px;
+        width: 100px;
+        padding: 8px 0;
+        border-radius: 8px;
+    }
+
+    .categories {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .categories {
+        display: none;
+    }
+}

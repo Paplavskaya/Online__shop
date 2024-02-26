@@ -1,0 +1,137 @@
+.promo__carousel__item {
+    height: 400px;
+}
+
+.promo__item__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.promo__vannaya, 
+.promo__tekstil {
+    background-color: #fad89d;
+}
+
+.promo__posuda, 
+.promo__hranenie {
+    background-color: #728eae;
+}
+
+.promo__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+    align-items: center;
+}
+
+.promo__info__title {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #172542;
+}
+
+.promo__info__call{
+    color: #172542;
+}
+
+.promo__posuda>.promo__info>.promo__info__title,
+.promo__hranenie>.promo__info>.promo__info__title,
+.promo__posuda>.promo__info> .promo__info__call,
+.promo__hranenie>.promo__info> .promo__info__call{
+    color: #fff;
+}
+
+.promo__info__call svg {
+    font-size: 12px;
+}
+
+@media (max-width: 800px){
+    .promo__item__info {
+        position: relative;
+        justify-content: center;
+    }
+
+    .promo__carousel__item {
+        height: 360px;
+    }
+
+    .promo__info {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.35);
+        width: 80%;
+        border-radius: 10px;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .promo__info__img {
+        width: 100%;
+    }
+
+    .promo__posuda>.promo__info>.promo__info__title,
+    .promo__hranenie>.promo__info>.promo__info__title,
+    .promo__posuda>.promo__info> .promo__info__call,
+    .promo__hranenie>.promo__info> .promo__info__call{
+        color: #172542;
+    }
+}
+
+@media (max-width: 768px){
+    .promo__carousel__item {
+        height: 350px;
+    }
+
+    .promo__info__title {
+        font-size: 36px;
+    }
+
+    .promo__info {
+        gap: 5px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 425px){
+    .promo__info__title {
+        font-size: 18px;
+    }
+
+    .promo__carousel__item {
+        height: 191px;
+    }
+
+    .promo__info__call{
+        font-size: 12px;
+    }
+
+    .promo__info__call svg {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 375px){
+    .promo__info__title {
+        font-size: 18px;
+    }
+
+    .promo__carousel__item {
+        height: 169px;
+    }
+
+    .promo__info__call{
+        font-size: 12px;
+    }
+
+    .promo__info__call svg {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 320px){
+    .promo__carousel {
+        display: none;
+    }
+}
