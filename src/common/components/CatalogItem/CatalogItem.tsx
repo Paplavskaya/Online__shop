@@ -12,15 +12,15 @@ type CategoryTypeProps = {
 }
 
 export const CatalogItem = ({product}: CategoryTypeProps) => {
-    const {title, price, images, newStatus} = product
+    const {title, price, images, newStatus, id, category} = product
     const navigete = useNavigate();
 
     const hendleProductClick = () => {
-        navigete(`/catalog/${product.id}`)
+        navigete(`/${category.id}/${id}`)
     }
 
     if(newStatus) {
-        return <div key={product.id} className="catalogList__item">
+        return <div key={id} className="catalogList__item">
                     <div className='catalogList__item__newStatus'>NEW</div>
                     <img className='catalogList__item__img' src={images[0]} onClick={hendleProductClick}/>
                     <div className='catalogList__item__title' onClick={hendleProductClick}>{title}</div>

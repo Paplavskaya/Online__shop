@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import store from "../../../common/stores/CatalogListStore";
+import store from "../../common/stores/CatalogListStore";
 import { observer } from "mobx-react-lite";
 import './CatalogList.css';
-import { CatalogItem } from "../../../common/components/CatalogItem";
+import { CatalogItem } from "../../common/components/CatalogItem";
 import { Breadcrumb, Select, Spin } from "antd";
 import { useParams } from "react-router-dom";
 import { HomeOutlined } from '@ant-design/icons';

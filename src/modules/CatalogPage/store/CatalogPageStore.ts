@@ -1,5 +1,5 @@
 import { makeAutoObservable, runInAction } from "mobx";
-import { Product } from "../../../../common/models/Product";
+import { Product } from "../../../common/models/Product";
 
 export class CatalogPageStores {
 
@@ -20,5 +20,5 @@ export class CatalogPageStores {
         } catch (error) {
             console.log(error)
         }
-    }
+    }    
 }

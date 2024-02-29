@@ -1,0 +1,108 @@
+.ant-input-affix-wrapper .ant-input-prefix{
+    color: red;
+}
+
+.formReview__title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+
+.formReview__form__top {
+    display: flex;
+    gap: 30px;
+}
+
+.formReview__item__advantages {
+    width: 300px;
+}
+
+.formReview__item__defects {
+    width: 300px;
+}
+
+.formReview__item__review,
+.formReview__item__name {
+    width: 630px;
+}
+
+.formReview__btn__send {
+    width: 180px;
+    height: 50px;
+    background-color: #fad89d;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+@media (max-width: 1350px){
+    .formReview__item__advantages,
+    .formReview__item__defects {
+        width: 250px;
+    }
+       
+    .formReview__item__review,
+    .formReview__item__name {
+        width: 530px;
+    }
+}
+
+@media (max-width: 1280px){
+    .formReview__item__advantages,
+    .formReview__item__defects {
+        width: 235px;
+    }
+       
+    .formReview__item__review,
+    .formReview__item__name {
+        width: 500px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .formReview__item__advantages,
+    .formReview__item__defects {
+        width: 300px;
+    }
+       
+    .formReview__item__review,
+    .formReview__item__name {
+        width: 630px;
+    }
+}
+
+@media (max-width: 425px) {
+    .formReview__form__top {
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .formReview__item__advantages,
+    .formReview__item__defects,
+    .formReview__item__review,
+    .formReview__item__name {
+        width: 380px;
+    }
+}
+
+@media (max-width: 375px) {
+    .formReview__item__advantages,
+    .formReview__item__defects,
+    .formReview__item__review,
+    .formReview__item__name {
+        width: 280px;
+    }
+
+    .formReview__title {
+        font-size: 18px;
+        margin: 0 0 15px 0;
+    }
+
+    .formReview__btn__send {
+        width: 140px;
+        height: initial;
+        background-color: #fad89d;
+        font-size: 16px;
+        border-radius: 25px;
+        padding: 8px 0;
+    }
+}

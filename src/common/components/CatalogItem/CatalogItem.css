@@ -3,7 +3,7 @@
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(3, auto);
     gap: 10px;
-    width: 220px;
+    width: 250px;
     position: relative;
 }
 
@@ -11,15 +11,17 @@
     grid-column: 1 / 3;
     grid-row: 1 / 2;
 
-    width: 220px;
-    height: 220px;
+    width: 250px;
+    height: 250px;
+    cursor: pointer
 }
 
 .catalogList__item__title {
     grid-column: 1 / 3;
     grid-row: 2 / 3;
 
-    font-size: 16px;
+    font-size: 18px;
+    cursor: pointer
 }
 
 .catalogList__item__price {

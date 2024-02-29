@@ -6,7 +6,8 @@ import { AboutUs } from '../modules/about_us'
 import { Vozvrat } from '../modules/vozvrat'
 import { Dostavka } from '../modules/dostavka'
 import { Oplata } from '../modules/oplata'
-import { Catalog } from '../modules/catalog'
+import { CatalogPage } from '../modules/CatalogPage'
+import { CatalogList } from '../modules/CatalogList'
 
 export const App = () => {
     return <>
@@ -17,7 +18,8 @@ export const App = () => {
                     <Route path="/dostavka" element={<Dostavka/>}/>
                     <Route path="/vozvrat" element={<Vozvrat/>}/>
                     <Route path="/oplata" element={<Oplata/>}/>
-                    <Route path="/:catalogId/*" element={<Catalog/>}/>
+                    <Route path="/:catalogId/*" element={<CatalogList/>}/>
+                    <Route path="/:catalogId/:productId" element={<CatalogPage />} />
                 </Route>
             </Routes>
     </>

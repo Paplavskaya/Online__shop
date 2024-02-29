@@ -5,6 +5,18 @@
     margin: 25px 0;
 }
 
+.breadCrumbs {
+    font-size: 16px;
+}
+
+.ant-breadcrumb a {
+    color: #beccdc;
+}
+
+:where(.css-dev-only-do-not-override-1qhpsh8).ant-breadcrumb li:last-child {
+    color: #172542;
+}
+
 .page__title {
     font-weight: 600;
     font-size: 38px;
@@ -30,6 +42,10 @@
 }
 
 @media (max-width: 425px) {
+    .breadCrumbs {
+        font-size: 12px;
+    }
+
     .page__header {
         margin: 15px 0;
     }
@@ -46,6 +62,10 @@
 }
 
 @media (max-width: 375px) {
+    .breadCrumbs {
+        font-size: 10px;
+    }
+
     .page__header {
         margin: 10px 0;
     }
