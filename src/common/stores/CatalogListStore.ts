@@ -6,7 +6,7 @@ class CatalogListStore {
     
     productsDataState: CatalogData | undefined = undefined
     categoriesDataState:CategoriesData | undefined = undefined;
-    awaiting: boolean = false
+    awaiting: boolean = false    
 
     get categoriesNameData () {
         return this.categoriesDataState?.map((category: Category)=> category.name)
@@ -40,7 +40,7 @@ class CatalogListStore {
 
     loadingProducts = async (catalogId?: string) => {
         
-         try{
+        try{
             runInAction(() => {this.awaiting = true}) 
             const response = await fetch(`http://localhost:4000/products?category.id=${catalogId}`);
                 
@@ -54,7 +54,7 @@ class CatalogListStore {
         }finally{
             runInAction(() => {this.awaiting = false}) 
         }
-    }
+    }    
   
     sortIncrease= (productsData: CatalogData)=> {
         productsData.sort((a, b)=> a.price - b.price)

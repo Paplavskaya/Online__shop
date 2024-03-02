@@ -49,11 +49,6 @@
     font-weight: 600;
 }
 
-.header__btn .ant-btn {
-    padding: 0 2px;
-    font-size: 12px;
-}
-
 .header__wrapper .ant-btn-primary {
     color: #172542;
     background-color: #fff;
@@ -83,7 +78,7 @@
     color: #728eae;
 }
 
-.ant-btn-default {
+.header__wrapper>.ant-btn-default {
     border: none;
     box-shadow: none;
 }
@@ -118,19 +113,7 @@
     .logo__img {
         width: 40px;
         height: 30px;
-    }
-
-    .header__btn .ant-btn >.anticon+span  {
-        display: none;
-    }
-
-    .ant-btn-group >.ant-btn {
-        height: 10px;
-    }
-
-    .header__btn .ant-btn {
-        padding: 0 6px;
-    }
+    }    
 }
 
 @media (max-width: 375px){

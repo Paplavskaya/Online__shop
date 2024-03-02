@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { CatalogPageStores } from "./store/CatalogPageStore";
+import { CatalogPageStores } from "./stores/CatalogPageStore";
 import { useParams } from "react-router-dom";
 import { Breadcrumb, ConfigProvider, Modal, Tabs } from "antd";
 import { HomeOutlined,

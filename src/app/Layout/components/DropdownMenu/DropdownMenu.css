@@ -26,6 +26,11 @@
     font-weight: 600;
 }
 
+.dropdown__menu .ant-btn-default {
+    border: none;
+    box-shadow: none;
+}
+
 @media (max-width: 768px){
     .dropdown__menu {
         display: none;

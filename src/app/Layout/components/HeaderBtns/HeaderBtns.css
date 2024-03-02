@@ -1,0 +1,34 @@
+.header__btns .ant-btn {
+    padding: 0 2px;
+    font-size: 14px;
+}
+
+.header__btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center 
+}
+
+.header__search{
+    position: relative;
+}
+
+
+@media (max-width: 768px){
+    .header__btns .ant-btn {
+        justify-content: center;
+    }
+    
+    .header__btns .ant-btn >.anticon+span  {
+        display: none;
+    }
+
+    .header__btns .ant-btn-group >.ant-btn {
+        height: 10px;
+    }
+
+    .header__btns .ant-btn {
+        padding: 0 6px;
+    }
+}
+

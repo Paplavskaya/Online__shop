@@ -1,17 +1,12 @@
-import { Layout as AntdLayout, Button } from 'antd';
+import { Layout as AntdLayout } from 'antd';
 import { Link, Outlet } from 'react-router-dom';
 import { Menu } from './components/Menu';
 import logo from '../../common/images/logo.png';
-import { SearchOutlined,
-        HeartOutlined,
-        ShoppingCartOutlined,
-        LoginOutlined
-} from '@ant-design/icons';
-import ButtonGroup from 'antd/es/button/button-group';
 import { Container } from './components/Container';
 import './Layout.css'
 import { DrawerMenu } from './components/DrawerMenu';
 import { DropdownMenu } from './components/DropdownMenu';
+import { HeaderBtns } from './components/HeaderBtns';
 
 const { Header, Content, Footer } = AntdLayout;
 
@@ -39,12 +34,7 @@ export const Layout = () => {
                     <div className='logo__title'>VD</div>
                   </Link>
                   
-                  <ButtonGroup className='header__btn'>
-                    <Button style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} type="link"><SearchOutlined style={{ fontWeight: 'bold' }}/>Поиск</Button> 
-                    <Button style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} type="link"><LoginOutlined />Войти</Button>
-                    <Button style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} type="link"><HeartOutlined />Избранное</Button>
-                    <Button style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} type="link"><ShoppingCartOutlined />Корзина</Button>
-                  </ButtonGroup>
+                  <HeaderBtns/>
                 </div>
               </Container>
             </Header>
