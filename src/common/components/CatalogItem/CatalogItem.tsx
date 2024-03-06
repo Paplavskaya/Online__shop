@@ -6,19 +6,29 @@ import { HeartOutlined,
 import { Product } from "../../models/Product";
 import './CatalogItem.css'
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
+import { ModalInCart } from "../ModalInCart";
+import cartStore from "../../stores/CartStore";
 
-type CategoryTypeProps = {
+type CatalogItemProps = {
     product: Product
 }
 
-export const CatalogItem = ({product}: CategoryTypeProps) => {
-    const {title, price, images, newStatus, id, category} = product
+export const CatalogItem = ({product}: CatalogItemProps) => {
+    const {title, price, images, newStatus, id, category} = product;
+    const { addToCart } = cartStore;
+    const [open, setOpen] = useState(false);
     const navigete = useNavigate();
 
     const hendleProductClick = () => {
         navigete(`/${category.id}/${id}`)
     }
 
+    const handleProductCartClick = (product: Product) => {
+        addToCart(product);
+        setOpen(true);
+    };
+    
     if(newStatus) {
         return <div key={id} className="catalogList__item">
                     <div className='catalogList__item__newStatus'>NEW</div>
@@ -27,8 +37,9 @@ export const CatalogItem = ({product}: CategoryTypeProps) => {
                     <div className='catalogList__item__price'>{price} BYN</div>
                     <ButtonGroup className='catalogList__item__btns'>
                         <Button className='catalogList__btn__favorites'><HeartOutlined /></Button>
-                        <Button className='catalogList__btn__cart'><ShoppingCartOutlined /></Button>
+                        <Button className='catalogList__btn__cart' onClick={() => handleProductCartClick(product)}><ShoppingCartOutlined /></Button>
                     </ButtonGroup>
+                    <ModalInCart product={product} open={open} setOpen={setOpen}/>
                 </div>
     } else {
         return <div key={product.id} className="catalogList__item">
@@ -36,9 +47,10 @@ export const CatalogItem = ({product}: CategoryTypeProps) => {
                     <div className='catalogList__item__title' onClick={hendleProductClick}>{title}</div>
                     <div className='catalogList__item__price'>{price} BYN</div>
                     <ButtonGroup className='catalogList__item__btns'>
-                        <Button className='catalogList__btn__favorites'><HeartOutlined /></Button>
-                        <Button className='catalogList__btn__cart'><ShoppingCartOutlined /></Button>
+                        <Button className='catalogList__btn__wishlist'><HeartOutlined /></Button>
+                        <Button className='catalogList__btn__cart' onClick={() => handleProductCartClick(product)}><ShoppingCartOutlined /></Button>
                     </ButtonGroup>
+                    <ModalInCart product={product} open={open} setOpen={setOpen}/>
                 </div>
     }
 }

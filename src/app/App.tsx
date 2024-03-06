@@ -8,6 +8,8 @@ import { Dostavka } from '../modules/dostavka'
 import { Oplata } from '../modules/oplata'
 import { CatalogPage } from '../modules/CatalogPage'
 import { CatalogList } from '../modules/CatalogList'
+import { Cart } from '../modules/cart'
+import { Checkout } from '../modules/checkout'
 
 export const App = () => {
     return <>
@@ -20,6 +22,8 @@ export const App = () => {
                     <Route path="/oplata" element={<Oplata/>}/>
                     <Route path="/:catalogId/*" element={<CatalogList/>}/>
                     <Route path="/:catalogId/:productId" element={<CatalogPage />} />
+                    <Route path="/cart" element={<Cart/>}/>
+                    <Route path="/checkout/*" element={<Checkout/>}/>
                 </Route>
             </Routes>
     </>

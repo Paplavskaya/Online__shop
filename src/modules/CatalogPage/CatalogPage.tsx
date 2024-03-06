@@ -15,11 +15,16 @@ import { FormReview } from "./components/FormReview";
 import { Dostavka } from "../dostavka";
 import { Oplata } from "../oplata";
 import { Vozvrat } from "../vozvrat";
+import { ModalInCart } from "../../common/components/ModalInCart";
+import { Product } from "../../common/models/Product";
+import cartStore from "../../common/stores/CartStore";
 
 export const CatalogPage = observer(() => {
     const [store] = useState(()=> new CatalogPageStores());
     const {loadProduct, productDataState} = store;
     const {productId} = useParams();
+    const { addToCart } = cartStore;
+    const [open, setOpen] = useState(false);
     const [isModalDostavkaOpen, setIsModalDostavkaOpen] = useState(false);
     const [isModalOplataOpen, setIsModalOplataOpen] = useState(false);
     const [isModalVozvratOpen, setIsModalVozvratOpen] = useState(false);
@@ -29,6 +34,11 @@ export const CatalogPage = observer(() => {
             loadProduct(productId)
         }
     }, [productId]);
+
+    const handleProductCartClick = (product: Product) => {
+        addToCart(product);
+        setOpen(true);
+    };
 
     const showModalDostavka = () => {
         setIsModalDostavkaOpen(true);
@@ -87,20 +97,22 @@ export const CatalogPage = observer(() => {
                                     <div className="product__stock"><span className="product__stock__info">Осталось: {productDataState.stock} шт.</span></div>
 
                                     <div className="product__messagers">
-                                    <a className="messager__viber" href="#">
-                                        <img className="icon__viber" alt="viber" src={icon_viber} />
-                                    </a>
-                                    <a className="messager__telegram" href="#">
-                                        <img className="icon__telegram" alt="telegram" src={icon_telegram}/>
-                                    </a>
-                                    <a className="messager__whatsapp" href="#">
-                                        <img className="icon__whatsapp" alt="whatsapp" src={icon_whatsapp}/>
-                                    </a>
+                                        <a className="messager__viber" href="#">
+                                            <img className="icon__viber" alt="viber" src={icon_viber} />
+                                        </a>
+                                        <a className="messager__telegram" href="#">
+                                            <img className="icon__telegram" alt="telegram" src={icon_telegram}/>
+                                        </a>
+                                        <a className="messager__whatsapp" href="#">
+                                            <img className="icon__whatsapp" alt="whatsapp" src={icon_whatsapp}/>
+                                        </a>
+                                    </div>
                                 </div>
-                                    
-                                </div>
+
                                 <div className="product__price">{productDataState.price} BYN</div>
-                                <Button className="product__btn"><ShoppingCartOutlined /> В корзину</Button>
+
+                                <Button className="product__btn" onClick={() => handleProductCartClick(productDataState)}><ShoppingCartOutlined /> В корзину</Button>
+                                <ModalInCart product={productDataState} open={open} setOpen={setOpen}/>
                                 
                                 <div className="product__conditions">
                                     <div className="conditions__dostavka condition">
@@ -108,7 +120,15 @@ export const CatalogPage = observer(() => {
                                             <img src="https://mymisterdom.by/image/icon/card-services-4.svg" alt="доставка"/>
                                             <div className="conditions__title">Доставка</div>
                                         </button>  
-                                        <Modal open={isModalDostavkaOpen} onCancel={handleCancelDostavka}>
+                                        <Modal
+                                            open={isModalDostavkaOpen}
+                                            onCancel={handleCancelDostavka}
+                                            footer={[
+                                                <Button key="back" onClick={handleCancelDostavka}>
+                                                    Закрыть
+                                                </Button>,
+                                            ]}
+                                        >
                                             <Dostavka/>
                                         </Modal>                                     
                                     </div>
@@ -117,7 +137,15 @@ export const CatalogPage = observer(() => {
                                             <img src="https://mymisterdom.by/image/icon/card-services-3.svg" alt="оплата"/>
                                             <div className="conditions__title">Оплата</div>
                                         </button>
-                                        <Modal open={isModalOplataOpen} onCancel={handleOplataCancel}>
+                                        <Modal
+                                            open={isModalOplataOpen}
+                                            onCancel={handleOplataCancel}
+                                            footer={[
+                                            <Button key="back" onClick={handleOplataCancel}>
+                                                Закрыть
+                                            </Button>,
+                                        ]}
+                                        >
                                             <Oplata/>
                                         </Modal>
                                     </div>
@@ -126,7 +154,16 @@ export const CatalogPage = observer(() => {
                                             <img src="https://mymisterdom.by/image/icon/card-services-2.svg" alt="возврат"/>
                                             <div className="conditions__title">Возврат</div>
                                         </button>
-                                        <Modal open={isModalVozvratOpen} onCancel={handleVozvratCancel}>
+                                        <Modal
+                                            className="conditions__modal"
+                                            open={isModalVozvratOpen}
+                                            onCancel={handleVozvratCancel}
+                                            footer={[
+                                                <Button key="back" onClick={handleVozvratCancel}>
+                                                    Закрыть
+                                                </Button>,
+                                            ]}
+                                        >                                        
                                             <Vozvrat/>
                                         </Modal>
                                     </div>

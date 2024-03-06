@@ -1,4 +1,4 @@
-import { Button, ConfigProvider } from "antd"
+import { Badge, Button, ConfigProvider } from "antd"
 import ButtonGroup from "antd/es/button/button-group"
 import { SearchOutlined,
     HeartOutlined,
@@ -8,9 +8,18 @@ import { SearchOutlined,
 import './HeaderBtns.css'
 import { SearchProduct } from "../../../../common/components/SearchProduct";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import cartStore from "../../../../common/stores/CartStore";
+import { observer } from "mobx-react-lite";
 
-export const HeaderBtns = () => {
+export const HeaderBtns = observer(() => {
     const [isSearchActiv, setIsSearchActiv] = useState(false)
+    const navigate = useNavigate()
+    const {cartCounts} = cartStore
+
+    const hendleCartClick = () => {
+        navigate('/cart')
+    }
     
     return <>
                 <ConfigProvider
@@ -31,11 +40,8 @@ export const HeaderBtns = () => {
                          
                         <Button className='header__btn' type="link"><LoginOutlined />Войти</Button>
                         <Button className='header__btn' type="link"><HeartOutlined />Избранное</Button>
-                        <Button className='header__btn' type="link"><ShoppingCartOutlined />Корзина</Button>
+                        <Button className='header__btn' type="link" onClick={hendleCartClick}><ShoppingCartOutlined />Корзина<Badge count={cartCounts} className="cart"></Badge></Button>
                     </ButtonGroup>
-                </ConfigProvider>
-               
-                    
-                
-    </>
-}
+                </ConfigProvider>                
+            </>
+})

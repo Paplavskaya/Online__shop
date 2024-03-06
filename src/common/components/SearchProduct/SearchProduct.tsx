@@ -53,23 +53,25 @@ export const SearchProduct = observer(({activ, setActiv}: SearchProductProps) =>
                     
                 </ConfigProvider>
                 <div className="search__products">
-                    {velueSeach && isSeachProductsOpen ?
-                        seachProducts && seachProducts.map((product)=> {
-                                const {title, images, id, category} = product
-                                const hendleProductClick = () => {
-                                    navigete(`/${category.id}/${id}`)
-                                    setIsSeachProductsOpen(!isSeachProductsOpen)
-                                    setActiv(false)
-                                }
-                                return <div className="search__product" key={id} onClick={hendleProductClick}>
-                                            <img className='search__product__img' src={images[0]}/>
-                                            <div className='search__product__title'>{title}</div>
-                                        </div>
-                            })
-                       
-                        : null 
+                    {seachProducts && seachProducts.length > 0 ?
+                        <>
+                            {velueSeach && isSeachProductsOpen ?
+                                seachProducts && seachProducts.map((product)=> {
+                                    const {title, images, id, category} = product
+                                    const hendleProductClick = () => {
+                                        navigete(`/${category.id}/${id}`)
+                                        setIsSeachProductsOpen(!isSeachProductsOpen)
+                                        setActiv(false)
+                                    }
+                                    return <div className="search__product" key={id} onClick={hendleProductClick}>
+                                                <img className='search__product__img' src={images[0]}/>
+                                                <div className='search__product__title'>{title}</div>
+                                            </div>
+                                })
+                                : null 
+                            }
+                        </>: <div className="search__products__message">По Вашему запросу товаров нет</div>
                     }
                 </div>
-                
             </div>
 })

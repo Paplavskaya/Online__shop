@@ -69,12 +69,26 @@
     height: 100px;
 }
 
+.search__products__message{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px auto;    
+    text-align: center;
+    background: #d3fedc;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
 @media (max-width: 768px){
     .search {
         width: 500px;
         top: 40px;
         right: -80px;
         padding: 15px 20px;
+    }
+
+    .search__products__message{
+        font-size: 18px;
     }
 }
 
@@ -91,6 +105,10 @@
 
     .search__product__title {
         font-size: 14px;
+    }
+
+    .search__products__message{
+        margin: 10px auto;
     }
 }
 
@@ -110,5 +128,11 @@
 
     .search__product__title {
         font-size: 12px;
+    }
+
+    .search__products__message{
+        font-size: 14px;
+        padding: 10px 24px;
+        margin: 5px auto;
     }
 }
