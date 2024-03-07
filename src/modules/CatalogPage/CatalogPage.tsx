@@ -8,9 +8,9 @@ import { HomeOutlined,
 import { observer } from "mobx-react-lite";
 import { Button, Image } from 'antd';
 import './CatalogPage.css';
-import icon_viber from '../../common/images/icon_viber.png';
-import icon_telegram from '../../common/images/icon_telegram.png';
-import icon_whatsapp from '../../common/images/icon_whatsapp.png';
+import Viber from '../../common/images/viber_icon.svg';
+import Telegram from '../../common/images/telegram_icon.svg';
+import Whatsapp from '../../common/images/whatsapp_icon.svg';
 import { FormReview } from "./components/FormReview";
 import { Dostavka } from "../dostavka";
 import { Oplata } from "../oplata";
@@ -98,13 +98,13 @@ export const CatalogPage = observer(() => {
 
                                     <div className="product__messagers">
                                         <a className="messager__viber" href="#">
-                                            <img className="icon__viber" alt="viber" src={icon_viber} />
+                                            <Viber />
                                         </a>
                                         <a className="messager__telegram" href="#">
-                                            <img className="icon__telegram" alt="telegram" src={icon_telegram}/>
+                                            <Telegram/>
                                         </a>
                                         <a className="messager__whatsapp" href="#">
-                                            <img className="icon__whatsapp" alt="whatsapp" src={icon_whatsapp}/>
+                                            <Whatsapp/>
                                         </a>
                                     </div>
                                 </div>

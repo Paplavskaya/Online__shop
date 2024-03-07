@@ -48,6 +48,7 @@ export const CartProduct = ({product, deleteProduct, increaseCount, declineCount
         });
     }
 
+    
     return <div className="cart__item">
                 <img className="cart__item__img"   onClick={hendleProductClick} src={images[0]}/>
                 <div className="cart__item__info">
@@ -58,7 +59,7 @@ export const CartProduct = ({product, deleteProduct, increaseCount, declineCount
                         <Button className="cart__item__btn">{count}</Button>
                         <Button className="cart__item__btn btn__increase" onClick={() => increase(id)} icon={<PlusOutlined />} />
                     </ButtonGroup>
-                    <div className="cart__item__sum">{count*price} BUN</div>
+                    <div className="cart__item__sum">{(count*price).toFixed(2)} BUN</div>
                 </div>
 
                 <div className="cart__btns">

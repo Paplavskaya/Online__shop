@@ -9,7 +9,7 @@ import { HomeOutlined, ExclamationCircleFilled } from '@ant-design/icons';
 const { confirm } = Modal;
 
 export const Cart = observer(() => {
-    const {cartState, deleteProduct, increaseCount, declineCount, cartCounts, totalPrice, clear} = cartStore;
+    const {cartState, deleteProduct, increaseCount, declineCount, cartCounts, totalPrice, clear} = cartStore;    
     const navigate = useNavigate();
 
     const hendleOrderClick = () => {

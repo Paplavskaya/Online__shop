@@ -30,12 +30,14 @@ export const Result = () => {
                 {userData && 
                     <ResultAntd
                         status="success"
-                        title={`${userData.lastname} ${userData.firstname} ${userData.middlename} Ваш заказ отправлен на e-mail: ${userData.email}`}
+                        className="resuit__info"
+                        title={`${userData.lastname} ${userData.firstname} ${userData.middlename}`} 
+                        subTitle={`Ваш заказ отправлен на e-mail: ${userData.email}`}
                         extra={[
-                            <Button key="buy" onClick={goToCatalog}>
-                                Вернуться на главную
+                            <Button key="buy" onClick={goToCatalog} style={{backgroundColor: '#fad89d'}}>
+                              Вернуться на главную
                             </Button>
-                        ]}
+                          ]}
                     />
                 }
             </>

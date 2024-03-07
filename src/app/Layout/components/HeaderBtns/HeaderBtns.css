@@ -6,20 +6,39 @@
 .header__btn {
     display: flex;
     flex-direction: column;
-    align-items: center 
+    align-items: center;
+    justify-content: center;
 }
 
 .header__search{
     position: relative;
 }
 
+.ant-badge .anticon .anticon-shopping-cart {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn__cart__span {
+    display: block;
+    margin-left: 8px;
+    line-height: 1.2
+}
+
+.ant-badge .ant-badge-count{
+    color: #172542;
+}
+.header__btn__cart {
+    margin-top: 2px;
+}
 
 @media (max-width: 768px){
     .header__btns .ant-btn {
         justify-content: center;
     }
     
-    .header__btns .ant-btn >.anticon+span  {
+    .header__btns .ant-btn >.anticon+span,
+    .btn__cart__span {
         display: none;
     }
 
@@ -30,5 +49,19 @@
     .header__btns .ant-btn {
         padding: 0 6px;
     }
+
+    .ant-badge .ant-badge-count {
+        min-width: 13px;
+        height: 13px;
+        line-height: 13px;
+        font-size: 9px;
+        padding: 0 4px;
+    }
+
+    .ant-badge .ant-scroll-number .ant-scroll-number-only {
+        height: 13px;
+    }
+
+    
 }
 

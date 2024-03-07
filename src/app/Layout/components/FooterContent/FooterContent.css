@@ -1,0 +1,154 @@
+.footer__wrapper{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.footer__title {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer__catalog__items,
+.footer__infoForBuyer__items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__catalog__items .menu__item {
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer__infoForBuyer__items {
+    list-style: none;
+}
+
+.infoForBuyer__item {
+    font-size: 18px;
+}
+
+.footer__contacts__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+.footer__social {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer__messagers__info .messager__viber,
+.footer__messagers__info .messager__telegram,
+.footer__messagers__info .messager__whatsapp,
+.footer__social__info .social__instagram,
+.footer__social__info .social__facebook,
+.footer__social__info .social__pinterest {
+    border:solid 1px #d9e4f1;
+}
+
+.footer__messagers__info .messager__viber:hover,
+.footer__messagers__info .messager__telegram:hover,
+.footer__messagers__info .messager__whatsapp:hover,
+.footer__social__info .social__instagram:hover,
+.footer__social__info .social__facebook:hover,
+.footer__social__info .social__pinterest:hover {
+    background-color: #d9e4f1;
+}
+
+@media (max-width: 800px){
+    .footer__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2 auto);
+        grid-row: repeat(2 auto);
+        justify-content: start;
+        column-gap: 70px;
+    }
+
+    .footer__catalog {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .footer__infoForBuyer {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+    .footer__contacts {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .footer__social {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+
+    .footer__catalog__items {
+        width: 300px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
+
+    .footer__infoForBuyer__items {
+        width: 220px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }    
+}
+
+@media (max-width: 768px){
+    .footer__catalog__items .menu__item,
+    .infoForBuyer__item,
+    .footer__contacts__item {
+        font-size: 16px;
+    }
+
+    .footer__social {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 425px){
+    .footer__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 20px;
+    }
+
+    .footer__catalog__items,
+    .footer__infoForBuyer__items {
+        width: 100%;
+    } 
+
+    .footer__contacts__item svg,
+    .footer__messagers__info .messager__viber svg,
+    .footer__messagers__info .messager__telegram svg,
+    .footer__messagers__info .messager__whatsapp svg,
+    .footer__social__info .social__instagram svg,
+    .footer__social__info .social__facebook svg,
+    .footer__social__info .social__pinterest svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer__catalog__items .menu__item,
+    .infoForBuyer__item,
+    .footer__contacts__item {
+        font-size: 14px;
+    }
+
+    .footer__title {
+        font-size: 18px;
+    }
+}

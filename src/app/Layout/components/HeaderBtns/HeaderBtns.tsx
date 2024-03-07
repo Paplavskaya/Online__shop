@@ -34,13 +34,26 @@ export const HeaderBtns = observer(() => {
                 >
                     <ButtonGroup className='header__btns'>
                         <div className='header__search'>
-                            <Button className='header__btn' type="link" onClick={()=> setIsSearchActiv(true)}><SearchOutlined/>Поиск</Button>
+                            <Button className='header__btn' type="link" onClick={()=> setIsSearchActiv(true)} style={{marginTop: "4px"}}>
+                                <SearchOutlined/>
+                                Поиск</Button>
                             <SearchProduct activ={isSearchActiv} setActiv={setIsSearchActiv}/>
                         </div>
                          
-                        <Button className='header__btn' type="link"><LoginOutlined />Войти</Button>
-                        <Button className='header__btn' type="link"><HeartOutlined />Избранное</Button>
-                        <Button className='header__btn' type="link" onClick={hendleCartClick}><ShoppingCartOutlined />Корзина<Badge count={cartCounts} className="cart"></Badge></Button>
+                        <Button className='header__btn' type="link" style={{marginTop: "4px"}}>
+                            <LoginOutlined />
+                            Войти
+                        </Button>
+                        <Button className='header__btn' type="link" style={{marginTop: "4px"}}>
+                            <HeartOutlined />
+                            Избранное
+                        </Button>
+                        <Button className='header__btn header__btn__cart' type="link" onClick={hendleCartClick}>
+                            <Badge className="btn__cart__badge" count={cartCounts} color='#fad89d'>
+                                <ShoppingCartOutlined />
+                                <span className="btn__cart__span">Корзина</span>
+                            </Badge>
+                        </Button>
                     </ButtonGroup>
                 </ConfigProvider>                
             </>

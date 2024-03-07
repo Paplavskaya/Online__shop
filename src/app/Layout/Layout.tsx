@@ -7,6 +7,7 @@ import './Layout.css'
 import { DrawerMenu } from './components/DrawerMenu';
 import { DropdownMenu } from './components/DropdownMenu';
 import { HeaderBtns } from './components/HeaderBtns';
+import { FooterContent } from './components/FooterContent';
 
 const { Header, Content, Footer } = AntdLayout;
 
@@ -53,8 +54,10 @@ export const Layout = () => {
               </Container>
             </Content>
 
-            <Footer style={{ textAlign: 'center' }}>
-              <Container>Тут будет footer ^_^</Container>
+            <Footer style={{ backgroundColor: 'rgb(191, 212, 237)' }}>
+              <Container>
+                <FooterContent/>
+              </Container>
             </Footer>
           </AntdLayout>
           )

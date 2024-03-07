@@ -77,7 +77,7 @@ export const Order = observer(() => {
                             <h2 className="form__title">Личные данные</h2>
                             <div className="personal__data">
                                 <Form.Item
-                                    className="form__item"
+                                    className="form__item item__lastname"
                                     label="Фамилия"
                                     name="lastname"
                                     rules={[{ required: true, message: 'Введите Вашу фамилию!' }]}
@@ -86,7 +86,25 @@ export const Order = observer(() => {
                                 </Form.Item>
 
                                 <Form.Item
-                                    className="form__item"
+                                    className="form__item item__firstname"
+                                    label="Имя"
+                                    name="firstname"
+                                    rules={[{ required: true, message: 'Введите Ваше имя!' }]}
+                                >
+                                    <Input/>
+                                </Form.Item>
+
+                                <Form.Item
+                                    className="form__item item__middlename"
+                                    label="Отчество"
+                                    name="middlename"
+                                    rules={[{ required: true, message: 'Введите Ваше отчество!' }]}
+                                >
+                                    <Input/>
+                                </Form.Item>
+
+                                <Form.Item
+                                    className="form__item item__email"
                                     label="E-mail"
                                     name="email"
                                     rules={[
@@ -104,16 +122,7 @@ export const Order = observer(() => {
                                 </Form.Item>
 
                                 <Form.Item
-                                    className="form__item"
-                                    label="Имя"
-                                    name="firstname"
-                                    rules={[{ required: true, message: 'Введите Ваше имя!' }]}
-                                >
-                                    <Input/>
-                                </Form.Item>
-
-                                <Form.Item
-                                    className="form__item"
+                                    className="form__item item__tel"
                                     label="Телефон"
                                     name="tel"
                                     rules={[
@@ -125,15 +134,6 @@ export const Order = observer(() => {
                                 >
                                     <Input addonBefore="+375" placeholder="(29)300-00-00"/>
                                 </Form.Item>
-                                
-                                <Form.Item
-                                    className="form__item"
-                                    label="Отчество"
-                                    name="middlename"
-                                    rules={[{ required: true, message: 'Введите Ваше отчество!' }]}
-                                >
-                                    <Input/>
-                                </Form.Item>
                             </div>
                         </div>
 
@@ -142,8 +142,8 @@ export const Order = observer(() => {
                                 <h2 className="form__title">Способы доставки</h2>
                                 <Form.Item>
                                     <Radio.Group className="delivery__items" value={valueDelivery} onChange={onChange} defaultValue="deliveryToTheDoor">
-                                        <Radio className="delivery__item" value="deliveryToTheDoor" style={{fontSize: "20px"}} checked>До двери</Radio>
-                                        <Radio className="delivery__item" value="deliveryToTheTerminal" style={{fontSize: "20px"}}>До терминала</Radio>
+                                        <Radio className="delivery__item" value="deliveryToTheDoor" checked>До двери</Radio>
+                                        <Radio className="delivery__item" value="deliveryToTheTerminal">До терминала</Radio>
                                     </Radio.Group>  
                                 </Form.Item>
                             </div>
@@ -151,9 +151,9 @@ export const Order = observer(() => {
                             <div className="form__info__payment">
                                 <h2 className="form__title">Способы оплаты</h2>
                                 <Form.Item>
-                                    <Radio.Group className="payment__items" >
-                                        <Radio value="paymentOnline" style={{fontSize: "20px"}}><CreditCardOutlined /> Оплата картой онлайн</Radio>
-                                        <Radio value="paymentReceipt" style={{fontSize: "20px"}}> <WalletOutlined /> Оплата при получении</Radio>
+                                    <Radio.Group className="payment__items">
+                                        <Radio value="paymentOnline" className="payment__item"><CreditCardOutlined /> Оплата картой онлайн</Radio>
+                                        <Radio value="paymentReceipt" className="payment__item"> <WalletOutlined /> Оплата при получении</Radio>
                                     </Radio.Group>
                                 </Form.Item>
                             </div>

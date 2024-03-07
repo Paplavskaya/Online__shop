@@ -84,10 +84,11 @@
     border: solid 1px #fad89d;
 }
 
-.product__messagers .messager__viber .icon__viber,
-.product__messagers .messager__telegram .icon__telegram,
-.product__messagers .messager__whatsapp .icon__whatsapp {
+.product__messagers .messager__viber svg,
+.product__messagers .messager__telegram svg,
+.product__messagers .messager__whatsapp svg {
     width: 40px;
+    height: 40px;
 }
 
 .product__conditions{
@@ -200,10 +201,11 @@
         margin-bottom: 0px;
     }
 
-    .product__messagers .messager__viber .icon__viber,
-    .product__messagers .messager__telegram .icon__telegram,
-    .product__messagers .messager__whatsapp .icon__whatsapp {
+    .product__messagers .messager__viber svg,
+    .product__messagers .messager__telegram svg,
+    .product__messagers .messager__whatsapp svg {
         width: 30px;
+        height: 30px;
     }
 
     .product__price {
