@@ -5,12 +5,17 @@ import "./Cart.css"
 import { Breadcrumb, Button, Empty, Modal } from "antd";
 import { useNavigate } from "react-router-dom";
 import { HomeOutlined, ExclamationCircleFilled } from '@ant-design/icons';
+import { useEffect } from "react";
 
 const { confirm } = Modal;
 
 export const Cart = observer(() => {
-    const {cartState, deleteProduct, increaseCount, declineCount, cartCounts, totalPrice, clear} = cartStore;    
-    const navigate = useNavigate();
+    const {cartState, deleteProduct, increaseCount, declineCount, cartCounts, totalPrice, clear, setLocalStorage} = cartStore;    
+    const navigate = useNavigate();    
+
+    useEffect(()=>{
+        setLocalStorage(cartState)
+    }, [cartState, increaseCount, declineCount])
 
     const hendleOrderClick = () => {
         navigate('/checkout/order')

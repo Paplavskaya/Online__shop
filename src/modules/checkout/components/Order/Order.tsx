@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import cartStore from "../../../../common/stores/CartStore"
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { observer } from "mobx-react-lite";
 import { Form, Button, Input, Breadcrumb, Select, Radio, RadioChangeEvent } from "antd";
 import { HomeOutlined, CreditCardOutlined, WalletOutlined } from '@ant-design/icons';
@@ -14,7 +14,7 @@ type FieldsType = {
 
 export const Order = observer(() => {
     const navigate = useNavigate();
-    const {isCartEmpty, totalPrice, cartState} = cartStore;
+    const {isCartEmpty, totalPrice, cartState, clear} = cartStore;
     const [valueDelivery, setValueDelivery] = useState('');   
     const [deliveryPrice, setDeliveryPrice] = useState(10);
     const [deliverySelect, setDeliverySelect] = useState('До двери'); 
@@ -31,6 +31,7 @@ export const Order = observer(() => {
                 userData: values
             }
         })
+        clear()
     }
 
     const onChangeDelivery = (valueDelivery: string) => {
@@ -57,7 +58,7 @@ export const Order = observer(() => {
                             title: <HomeOutlined />,
                         },
                         {
-                            href: '../cart',
+                            href: '/cart',
                             title: <div>Корзина покупок</div>,
                         },
                         {
@@ -214,7 +215,10 @@ export const Order = observer(() => {
                     </div>
                     
                     <div className="form__card">
-                        <h2 className="form__title">Ваша корзина</h2>
+                        <div className="form__card__header">
+                            <h2 className="form__title form__card__title">Ваша корзина</h2>
+                            <Link to='/cart'>Изменить</Link>
+                        </div>                        
                         {cartState.length > 0 && cartState.map((cartProduct)=>
                             <div className="form__card__item" key={cartProduct.id}>
                                 <img className="card__item__img" src={cartProduct.images[0]}/>

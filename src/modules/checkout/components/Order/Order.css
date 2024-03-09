@@ -87,6 +87,17 @@
     flex-direction: column;
 }
 
+.form__card__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__card__title {
+    margin-bottom: 0;
+}
+
 .form__card__item{
     border: solid 1px #d9e4f1 ;
     padding: 10px 20px;
@@ -166,12 +177,20 @@
 
    .form__card__btn {
        margin: 10px auto;
-   }
+    }
+
+   .form__card__header {
+        justify-content: start;
+        gap: 30px;
+    }
 }
 
 @media (max-width: 425px) {
     .form__title {
-        font-size: 24px;
+        font-size: 24px;        
+    }
+
+    .form__card__header {       
         margin-bottom: 10px;
     }
     

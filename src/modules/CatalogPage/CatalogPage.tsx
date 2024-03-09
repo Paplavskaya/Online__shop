@@ -8,9 +8,6 @@ import { HomeOutlined,
 import { observer } from "mobx-react-lite";
 import { Button, Image } from 'antd';
 import './CatalogPage.css';
-import Viber from '../../common/images/viber_icon.svg';
-import Telegram from '../../common/images/telegram_icon.svg';
-import Whatsapp from '../../common/images/whatsapp_icon.svg';
 import { FormReview } from "./components/FormReview";
 import { Dostavka } from "../dostavka";
 import { Oplata } from "../oplata";
@@ -18,6 +15,8 @@ import { Vozvrat } from "../vozvrat";
 import { ModalInCart } from "../../common/components/ModalInCart";
 import { Product } from "../../common/models/Product";
 import cartStore from "../../common/stores/CartStore";
+import { MessagersInfo } from "../../common/components/MessagersInfo";
+import { ViewProducts } from "../../common/components/ViewProducts";
 
 export const CatalogPage = observer(() => {
     const [store] = useState(()=> new CatalogPageStores());
@@ -97,15 +96,7 @@ export const CatalogPage = observer(() => {
                                     <div className="product__stock"><span className="product__stock__info">Осталось: {productDataState.stock} шт.</span></div>
 
                                     <div className="product__messagers">
-                                        <a className="messager__viber" href="#">
-                                            <Viber />
-                                        </a>
-                                        <a className="messager__telegram" href="#">
-                                            <Telegram/>
-                                        </a>
-                                        <a className="messager__whatsapp" href="#">
-                                            <Whatsapp/>
-                                        </a>
+                                        <MessagersInfo/>
                                     </div>
                                 </div>
 
@@ -211,6 +202,7 @@ export const CatalogPage = observer(() => {
                                 </ConfigProvider>
                             </div>
                         </div>
+                        <ViewProducts/>
                 </div>
                 }
             </>  

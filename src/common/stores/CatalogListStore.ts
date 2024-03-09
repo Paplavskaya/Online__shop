@@ -21,6 +21,18 @@ class CatalogListStore {
         })
         return count
     }
+
+    get maxPrice () {
+        const arrPrice = this.productsDataState?.map((product)=> product.price)
+        const maxPrice = arrPrice?.reduce((acc, price) => acc < price ? price : acc);
+        return maxPrice    
+    } 
+
+    get minPrice () {
+        const arrPrice = this.productsDataState?.map((product)=> product.price)
+        const maxPrice = arrPrice?.reduce((acc, price) => acc > price ? price : acc);
+        return maxPrice
+    } 
     
     constructor() {
         makeAutoObservable(this)
@@ -63,7 +75,7 @@ class CatalogListStore {
     sortDecreasing= (productsData: CatalogData)=> {
         productsData.sort((a, b)=> b.price - a.price)
     }
-
+    
 }
 
 const store = new CatalogListStore();

@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect,} from "react";
 import store from "../../common/stores/CatalogListStore";
 import { observer } from "mobx-react-lite";
 import './CatalogList.css';
@@ -6,6 +6,7 @@ import { CatalogItem } from "../../common/components/CatalogItem";
 import { Breadcrumb, Select, Spin } from "antd";
 import { useParams } from "react-router-dom";
 import { HomeOutlined } from '@ant-design/icons';
+import { ViewProducts } from "../../common/components/ViewProducts";
 
 export const CatalogList = observer(() => {
     const {
@@ -39,6 +40,7 @@ export const CatalogList = observer(() => {
     // }
     
     const categoryFind = categoriesDataState?.find(category => category.id === catalogId)
+    
 
     return <Spin spinning={awaiting}>
 
@@ -76,7 +78,7 @@ export const CatalogList = observer(() => {
                     <div className="catalogList__content">
                         <div className="catalogList__filters"> 
                             <div className="catalogList__filter__price">
-                                <div className="catalogList__filter__title">Цена</div>
+                                <div className="catalogList__filter__title">Цена</div>                                
                             </div>
                         </div>
                         <div className="catalogList__main">
@@ -91,11 +93,8 @@ export const CatalogList = observer(() => {
                                 )}
                             </div>
                         </div>
-                    </div>
-                    <div className="ptoduct__viewed">
-                        <div className="ptoduct__title"></div>
-                        <div className="ptoduct__items"></div>
-                    </div>
+                    </div>                    
+                    <ViewProducts/>
                 </div>
             </Spin>
 })

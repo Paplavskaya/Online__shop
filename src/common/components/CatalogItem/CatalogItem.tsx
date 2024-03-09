@@ -9,6 +9,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { ModalInCart } from "../ModalInCart";
 import cartStore from "../../stores/CartStore";
+import viewProductsStore from "../ViewProducts/stores/ViewProductsStore";
 
 type CatalogItemProps = {
     product: Product
@@ -17,11 +18,13 @@ type CatalogItemProps = {
 export const CatalogItem = ({product}: CatalogItemProps) => {
     const {title, price, images, newStatus, id, category} = product;
     const { addToCart } = cartStore;
+    const { addToViewProducts } = viewProductsStore;
     const [open, setOpen] = useState(false);
     const navigete = useNavigate();
 
     const hendleProductClick = () => {
         navigete(`/${category.id}/${id}`)
+        addToViewProducts(product)
     }
 
     const handleProductCartClick = (product: Product) => {

@@ -3,7 +3,7 @@ import { ProductInCart } from "../models/ProductInCart";
 import { Product } from "../models/Product";
 
 class CartStore {
-    cartState: ProductInCart[] = []
+    cartState: ProductInCart[] = this.getLocalStorage()
 
     get cartCounts () {
         return this.cartState.reduce((acc, productIncart) => {
@@ -32,6 +32,15 @@ class CartStore {
         } else {
             this.cartState[findProductIndex].count += 1 
         }
+    }
+
+    setLocalStorage(products: ProductInCart[]) {
+        localStorage.setItem('cart', JSON.stringify(products))
+    }
+
+    getLocalStorage() {
+        const localStorageData = localStorage.getItem('cart')
+        return localStorageData ? JSON.parse(localStorageData) : []
     }
 
     increaseCount = (productId: number) => {

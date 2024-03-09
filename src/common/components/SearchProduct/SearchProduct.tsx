@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { observer } from "mobx-react-lite";
 import { SearchProductStore } from "./stores/SearchProductStore";
 import { CloseOutlined } from '@ant-design/icons';
+import debounce from 'lodash.debounce'
 
 type SearchProductProps = {
     activ: boolean;
@@ -24,10 +25,20 @@ export const SearchProduct = observer(({activ, setActiv}: SearchProductProps) =>
    
     const seachProducts = productsAllState && productsAllState.filter((product) => {
         return product.title.toLowerCase().includes(velueSeach.toLowerCase())
-    }) 
+    })
+    
+    const hendleChange = (event:any) => {
+        setVelueSeach(event.target.value)
+    }
     
     const hendleInputClick = () => {
         setIsSeachProductsOpen(true)
+    }
+
+    const hendleClosedBtnClick = () => {
+        setActiv(false);
+        setIsSeachProductsOpen(!isSeachProductsOpen)
+        setVelueSeach('')
     }
        
     return <div className={activ?'search activ':'search'}>                
@@ -43,12 +54,14 @@ export const SearchProduct = observer(({activ, setActiv}: SearchProductProps) =>
                         },
                     }}
                 >
-                    <div className="search__btn"><Button className="search__closed__btn" onClick={()=>{setActiv(false)}}><CloseOutlined /></Button></div>
+                    <div className="search__btn"><Button className="search__closed__btn" onClick={hendleClosedBtnClick}><CloseOutlined /></Button></div>
                     <Input
                         className="search__input"
                         placeholder="Поиск товара по каталогу"
-                        onChange={(event)=>{setVelueSeach(event.target.value)}}
+                        value={velueSeach}
+                        onChange={debounce(hendleChange, 1000)}
                         onClick={hendleInputClick}
+                        
                     />
                     
                 </ConfigProvider>
@@ -61,7 +74,8 @@ export const SearchProduct = observer(({activ, setActiv}: SearchProductProps) =>
                                     const hendleProductClick = () => {
                                         navigete(`/${category.id}/${id}`)
                                         setIsSeachProductsOpen(!isSeachProductsOpen)
-                                        setActiv(false)
+                                        setActiv(false) 
+                                        setVelueSeach('')                                     
                                     }
                                     return <div className="search__product" key={id} onClick={hendleProductClick}>
                                                 <img className='search__product__img' src={images[0]}/>
