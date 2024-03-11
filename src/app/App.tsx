@@ -10,6 +10,7 @@ import { CatalogPage } from '../modules/CatalogPage'
 import { CatalogList } from '../modules/CatalogList'
 import { Cart } from '../modules/cart'
 import { Checkout } from '../modules/checkout'
+import { News } from '../modules/news'
 
 export const App = () => {
     return <>
@@ -24,6 +25,7 @@ export const App = () => {
                     <Route path="/:catalogId/:productId" element={<CatalogPage />} />
                     <Route path="/cart" element={<Cart/>}/>
                     <Route path="/checkout/*" element={<Checkout/>}/>
+                    <Route path="/news/*" element={<News/>}/>
                 </Route>
             </Routes>
     </>

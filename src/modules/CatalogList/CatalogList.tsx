@@ -76,14 +76,7 @@ export const CatalogList = observer(() => {
                     </div >
                     
                     <div className="catalogList__content">
-                        <div className="catalogList__filters"> 
-                            <div className="catalogList__filter__price">
-                                <div className="catalogList__filter__title">Цена</div>                                
-                            </div>
-                        </div>
                         <div className="catalogList__main">
-                            <div className="catalogList__filterToggles"></div>
-                            
                             <div className="catalogList__items">
                                 {productsDataState && productsDataState.length > 0 && productsDataState.map((product)=>
                                     <CatalogItem 

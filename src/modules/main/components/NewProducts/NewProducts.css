@@ -1,0 +1,42 @@
+.slick-dots li button:before {
+   color: #172542 !important;
+   margin-top: 10px;
+}
+
+.productsNew__wrapper {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.productsNew__title{
+    font-weight: 600;
+    font-size: 28px;
+}
+
+@media (max-width: 1024px) {
+    .productsNew__title{        
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 425px) {
+    .productsNew__title{        
+        font-size: 20px;
+    }
+
+    .productsNew__wrapper .catalogList__item__title {        
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .productsNew__wrapper .catalogList__item {        
+        gap: 0;
+    }
+
+    .productsNew__wrapper .catalogList__item__img {
+        margin-bottom: 10px;
+    }    
+}

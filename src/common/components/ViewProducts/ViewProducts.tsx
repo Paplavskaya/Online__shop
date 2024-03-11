@@ -24,19 +24,10 @@ export const ViewProducts = observer(() => {
         initialSlide: 0,
         responsive: [
             {
-                breakpoint: 1440,
-                settings: {
-                  slidesToShow: 5,
-                  slidesToScroll: 1,
-                  infinite: true,
-                  dots: true
-                }
-            },
-            {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 4,
-              slidesToScroll: 1,
+              slidesToShow: 3,
+              slidesToScroll: 3,
               infinite: true,
               dots: true
             }
@@ -45,7 +36,7 @@ export const ViewProducts = observer(() => {
             breakpoint: 800,
             settings: {
               slidesToShow: 3,
-              slidesToScroll: 1,
+              slidesToScroll: 3,
               infinite: true,
               dots: true
             }
@@ -55,21 +46,15 @@ export const ViewProducts = observer(() => {
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2,
-                initialSlide: 2
-            }
-          },
-          {
-            breakpoint: 375,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
+                infinite: true,
+                dots: true
             }
           }
         ]
     };
     
     return <>
-                {viewProductsState && viewProductsState.length >0 &&
+                {viewProductsState && viewProductsState.length > 3 &&
                     <div className="viewProducts__wrapper">
                         <h2 className="viewProducts__title">Вы недавно просматривали</h2>
                         <div className="slider-container">

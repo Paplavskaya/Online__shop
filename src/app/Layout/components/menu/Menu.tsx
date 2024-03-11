@@ -40,6 +40,17 @@ const items: MenuProps['items'] = [
       },
     {
         key: '4',
+        label: (<NavLink className='menu__item' to="news">Новости</NavLink>),
+        style: {
+            cursor: 'default',
+            backgroundColor: '#fff'
+        }
+    },
+    {
+        type: 'divider',
+      },
+    {
+        key: '5',
         label: (<NavLink className='menu__item' to="about_us">О нас</NavLink>),
         style: {
             cursor: 'default',

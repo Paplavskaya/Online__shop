@@ -12,7 +12,7 @@ class ViewProductsStore {
 
   addToViewProducts = (product: Product) => {
     const  findProductIndex = this.viewProductsState.findIndex(({id})=> id === product.id )
-    if(findProductIndex){
+    if(findProductIndex === -1){
       this.viewProductsState.push({...product, date:Date.now() })
     }
   }

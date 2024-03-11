@@ -41,6 +41,7 @@ export const DrawerMenu = () => {
                             <NavLink className='menu__item' to="dostavka">Доставка</NavLink>
                             <NavLink className='menu__item' to="oplata">Оплата</NavLink>
                             <NavLink className='menu__item' to="vozvrat">Возврат</NavLink>
+                            <NavLink className='menu__item' to="news">Новости</NavLink>
                             <NavLink className='menu__item' to="about_us">О нас</NavLink>
                         </div>
                         

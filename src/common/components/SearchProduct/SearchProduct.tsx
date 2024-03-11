@@ -3,9 +3,8 @@ import './SearchProduct.css'
 import { useEffect, useState } from "react"
 import { useNavigate } from "react-router-dom";
 import { observer } from "mobx-react-lite";
-import { SearchProductStore } from "./stores/SearchProductStore";
+import { SearchProductStore } from "../../stores/SearchProductStore";
 import { CloseOutlined } from '@ant-design/icons';
-import debounce from 'lodash.debounce'
 
 type SearchProductProps = {
     activ: boolean;
@@ -22,15 +21,15 @@ export const SearchProduct = observer(({activ, setActiv}: SearchProductProps) =>
     useEffect(() => {
         loadingAllProducts()
     },[])
-   
+    
     const seachProducts = productsAllState && productsAllState.filter((product) => {
         return product.title.toLowerCase().includes(velueSeach.toLowerCase())
     })
-    
+   
     const hendleChange = (event:any) => {
         setVelueSeach(event.target.value)
     }
-    
+
     const hendleInputClick = () => {
         setIsSeachProductsOpen(true)
     }
@@ -59,7 +58,7 @@ export const SearchProduct = observer(({activ, setActiv}: SearchProductProps) =>
                         className="search__input"
                         placeholder="Поиск товара по каталогу"
                         value={velueSeach}
-                        onChange={debounce(hendleChange, 1000)}
+                        onChange={hendleChange}
                         onClick={hendleInputClick}
                         
                     />

@@ -23,6 +23,7 @@ export const FooterContent = () => {
                         <li><Link className='infoForBuyer__item' to="dostavka">Доставка</Link></li>
                         <li><Link className='infoForBuyer__item' to="oplata">Оплата</Link></li>
                         <li><Link className='infoForBuyer__item' to="vozvrat">Возврат</Link></li>
+                        <li><Link className='infoForBuyer__item' to="news">Новости</Link></li>
                     </ul>
                 </div>
                 <div className="footer__contacts">

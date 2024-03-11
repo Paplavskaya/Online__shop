@@ -1,10 +1,14 @@
 import { makeAutoObservable, runInAction } from "mobx";
-import { CatalogData } from "../../../models/CatalogData";
+import { CatalogData } from "../models/CatalogData";
 
 export class SearchProductStore {
 
     productsAllState: CatalogData | undefined = undefined
     awaiting: boolean = false 
+
+    get productsNew() {
+        return this.productsAllState?.filter((product) => product.newStatus === true)
+    }
     
     constructor() {
         makeAutoObservable(this)
