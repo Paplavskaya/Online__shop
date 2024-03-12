@@ -20,7 +20,7 @@ class WishListStore {
         const  findProductIndex = this.wishListState.findIndex(({id})=> id === product.id )
         if(findProductIndex === -1){
             this.wishListState.push({...product, count: 1})
-        }
+        }       
         this.setLocalStorageWL(this.wishListState)
     }
 

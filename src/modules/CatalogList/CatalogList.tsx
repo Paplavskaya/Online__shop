@@ -80,7 +80,7 @@ export const CatalogList = observer(() => {
                                 {productsDataState && productsDataState.length > 0 && productsDataState.map((product)=>
                                     <CatalogItem 
                                         key={product.id}
-                                        product={product}
+                                        product={product}                                        
                                     />
                                 )}
                             </div>

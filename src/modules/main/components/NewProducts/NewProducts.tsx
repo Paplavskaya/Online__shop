@@ -7,7 +7,7 @@ import './NewProducts.css'
 
 export const NewProducts = observer(() => {
     const [store] = useState(()=> new SearchProductStore());
-    const {productsNew, loadingAllProducts} = store
+    const {productsNew, loadingAllProducts} = store;
 
     useEffect(() => {
         loadingAllProducts()

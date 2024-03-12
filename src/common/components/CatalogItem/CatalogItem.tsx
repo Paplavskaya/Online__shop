@@ -4,7 +4,7 @@ import { HeartOutlined,
 import { Product } from "../../models/Product";
 import './CatalogItem.css'
 import { useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ModalInCart } from "../ModalInCart";
 import cartStore from "../../stores/CartStore";
 import viewProductsStore from "../ViewProducts/stores/ViewProductsStore";
@@ -21,8 +21,12 @@ export const CatalogItem = observer(({product}: CatalogItemProps) => {
     const { addToViewProducts } = viewProductsStore;
     const [open, setOpen] = useState(false);
     const navigete = useNavigate();
-    const {addToWishList, deleteProductInWishList} = wishListStore;
+    const {addToWishList, deleteProductInWishList, wishListState} = wishListStore;
     const [inWishList, setInWishList] = useState(false)
+
+    useEffect(()=>{ 
+        product 
+    }, [inWishList])
 
     const hendleProductClick = () => {
         navigete(`/${category.id}/${id}`)
@@ -34,13 +38,18 @@ export const CatalogItem = observer(({product}: CatalogItemProps) => {
         setOpen(true);
     };
     
+    const  findProductIndex = wishListState.findIndex(({id})=> id === id)
+    if(findProductIndex === 1){
+        setInWishList(true)
+    }
+       
     const handleProductWLClick = (product: Product) => {
         if(inWishList === false){
-            addToWishList(product);
             setInWishList(true);            
+            addToWishList(product);            
         } else {
-            deleteProductInWishList(product.id);
             setInWishList(false);            
+            deleteProductInWishList(product.id);
         }   
     };
     

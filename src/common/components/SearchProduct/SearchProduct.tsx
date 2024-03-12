@@ -29,7 +29,7 @@ export const SearchProduct = observer(({activ, setActiv}: SearchProductProps) =>
     const hendleChange = (event:any) => {
         setVelueSeach(event.target.value)
     }
-
+    
     const hendleInputClick = () => {
         setIsSeachProductsOpen(true)
     }
@@ -39,7 +39,7 @@ export const SearchProduct = observer(({activ, setActiv}: SearchProductProps) =>
         setIsSeachProductsOpen(!isSeachProductsOpen)
         setVelueSeach('')
     }
-       
+
     return <div className={activ?'search activ':'search'}>                
                 <ConfigProvider
                     theme={{
@@ -60,7 +60,7 @@ export const SearchProduct = observer(({activ, setActiv}: SearchProductProps) =>
                         value={velueSeach}
                         onChange={hendleChange}
                         onClick={hendleInputClick}
-                        
+
                     />
                     
                 </ConfigProvider>

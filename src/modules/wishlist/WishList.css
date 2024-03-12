@@ -1,0 +1,13 @@
+.wishList__wrapper .page__header{
+    justify-content: space-between;
+}
+
+.wishList__product__clear {
+    background: #fad89d;
+}
+
+.wishList__product__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
