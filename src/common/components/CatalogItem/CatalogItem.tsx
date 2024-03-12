@@ -1,5 +1,3 @@
-import { Button } from "antd";
-import ButtonGroup from "antd/es/button/button-group";
 import { HeartOutlined,
     ShoppingCartOutlined,
 } from '@ant-design/icons';
@@ -10,17 +8,21 @@ import { useState } from "react";
 import { ModalInCart } from "../ModalInCart";
 import cartStore from "../../stores/CartStore";
 import viewProductsStore from "../ViewProducts/stores/ViewProductsStore";
+import wishListStore from "../../stores/WishListStore";
+import { observer } from "mobx-react-lite";
 
 type CatalogItemProps = {
     product: Product
 }
 
-export const CatalogItem = ({product}: CatalogItemProps) => {
+export const CatalogItem = observer(({product}: CatalogItemProps) => {
     const {title, price, images, newStatus, id, category} = product;
     const { addToCart } = cartStore;
     const { addToViewProducts } = viewProductsStore;
     const [open, setOpen] = useState(false);
     const navigete = useNavigate();
+    const {addToWishList, deleteProductInWishList} = wishListStore;
+    const [inWishList, setInWishList] = useState(false)
 
     const hendleProductClick = () => {
         navigete(`/${category.id}/${id}`)
@@ -32,16 +34,36 @@ export const CatalogItem = ({product}: CatalogItemProps) => {
         setOpen(true);
     };
     
+    const handleProductWLClick = (product: Product) => {
+        if(inWishList === false){
+            addToWishList(product);
+            setInWishList(true);            
+        } else {
+            deleteProductInWishList(product.id);
+            setInWishList(false);            
+        }   
+    };
+    
     if(newStatus) {
         return <div key={id} className="catalogList__item">
                     <div className='catalogList__item__newStatus'>NEW</div>
                     <img className='catalogList__item__img' src={images[0]} onClick={hendleProductClick}/>
                     <div className='catalogList__item__title' onClick={hendleProductClick}>{title}</div>
                     <div className='catalogList__item__price'>{price} BYN</div>
-                    <ButtonGroup className='catalogList__item__btns'>
-                        <Button className='catalogList__btn__favorites'><HeartOutlined /></Button>
-                        <Button className='catalogList__btn__cart' onClick={() => handleProductCartClick(product)}><ShoppingCartOutlined /></Button>
-                    </ButtonGroup>
+                    <div className='catalogList__item__btns'>
+                        <button
+                            className={inWishList === false ? 'catalogList__btn__wishlist': 'catalogList__btn__wishlist inWishlist'}
+                            onClick={() => handleProductWLClick(product)}
+                        >
+                            <HeartOutlined />
+                        </button>
+                        <button
+                            className='catalogList__btn__cart'
+                            onClick={() => handleProductCartClick(product)}
+                        >
+                            <ShoppingCartOutlined />
+                        </button>
+                    </div>
                     <ModalInCart product={product} open={open} setOpen={setOpen}/>
                 </div>
     } else {
@@ -49,11 +71,21 @@ export const CatalogItem = ({product}: CatalogItemProps) => {
                     <img className='catalogList__item__img' src={images[0]} onClick={hendleProductClick}/>
                     <div className='catalogList__item__title' onClick={hendleProductClick}>{title}</div>
                     <div className='catalogList__item__price'>{price} BYN</div>
-                    <ButtonGroup className='catalogList__item__btns'>
-                        <Button className='catalogList__btn__wishlist'><HeartOutlined /></Button>
-                        <Button className='catalogList__btn__cart' onClick={() => handleProductCartClick(product)}><ShoppingCartOutlined /></Button>
-                    </ButtonGroup>
+                    <div className='catalogList__item__btns'>
+                        <button
+                            className={inWishList === false ? 'catalogList__btn__wishlist': 'catalogList__btn__wishlist inWishlist'}
+                            onClick={() => handleProductWLClick(product)} 
+                        >
+                            <HeartOutlined />
+                        </button>
+                        <button
+                            className='catalogList__btn__cart'
+                            onClick={() => handleProductCartClick(product)}
+                        >
+                            <ShoppingCartOutlined />
+                        </button>
+                    </div>
                     <ModalInCart product={product} open={open} setOpen={setOpen}/>
                 </div>
     }
-}
+})

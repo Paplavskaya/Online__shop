@@ -11,6 +11,7 @@ import { CatalogList } from '../modules/CatalogList'
 import { Cart } from '../modules/cart'
 import { Checkout } from '../modules/checkout'
 import { News } from '../modules/news'
+import { WishList } from '../modules/wishlist'
 
 export const App = () => {
     return <>
@@ -26,6 +27,7 @@ export const App = () => {
                     <Route path="/cart" element={<Cart/>}/>
                     <Route path="/checkout/*" element={<Checkout/>}/>
                     <Route path="/news/*" element={<News/>}/>
+                    <Route path="/wishlist" element={<WishList/>}/>
                 </Route>
             </Routes>
     </>

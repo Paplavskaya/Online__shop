@@ -32,6 +32,7 @@ class CartStore {
         } else {
             this.cartState[findProductIndex].count += 1 
         }
+        this.setLocalStorage(this.cartState)
     }
 
     setLocalStorage(products: ProductInCart[]) {

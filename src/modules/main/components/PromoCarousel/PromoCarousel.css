@@ -2,6 +2,10 @@
     display: none;
 }
 
+.promo__carousel {
+    height: 400px;
+}
+
 .promo__carousel__item {
     height: 400px;
 }
@@ -58,6 +62,10 @@
         justify-content: center;
     }
 
+    .promo__carousel {
+        height: 360px;
+    }
+
     .promo__carousel__item {
         height: 360px;
     }
@@ -84,6 +92,10 @@
 }
 
 @media (max-width: 768px){
+    .promo__carousel {
+        height: 350px;
+    }
+
     .promo__carousel__item {
         height: 350px;
     }
@@ -101,6 +113,10 @@
 @media (max-width: 425px){
     .promo__info__title {
         font-size: 18px;
+    }
+
+    .promo__carousel {
+        height: 191px;
     }
 
     .promo__carousel__item {

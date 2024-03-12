@@ -38,19 +38,19 @@
     grid-row: 3 /4;
 
     justify-self: end;
+    display: flex;
+    gap: 15px;
 }
 
-.catalogList__item__btns .ant-btn {
-    height: initial;
-    padding: 0px 15px;
+.catalogList__btn__wishlist,
+.catalogList__btn__cart {
+    background: transparent;
+    border: none;
     font-size: 16px;
+    cursor: pointer;
 }
 
-.catalogList__item__btns .ant-btn:last-child{
-    padding-right: 0;
-}
-
-.catalogList__item__btns .ant-btn .anticon svg:hover {
+.catalogList__item__btns .anticon svg:hover {
     width: 20px;
     height: 20px;
 }
@@ -73,9 +73,9 @@
     position: absolute;
 }
 
-.catalogList__item__btns .ant-btn-default {
-    border: none;
-    box-shadow: none;
+
+.inWishlist .anticon svg  {
+    color: #fad89d;
 }
 
 @media (max-width: 800px) {
@@ -88,28 +88,29 @@
         height: 150px;
     }
     
-    .catalogList__item__title,
+    .catalogList__item__title {
+        font-size: 14px;
+    }
     .catalogList__item__price {
         font-size: 16px;
     }
 
     .catalogList__item__title {
-        height: 82px;
+        height: 76px;
     }
     
-    .catalogList__item__btns .ant-btn {
-        padding: 0px 10px;
+    .catalogList__btn__wishlist,
+    .catalogList__btn__cart {
         font-size: 14px;
     }
   
-    .catalogList__item__btns .ant-btn .anticon svg:hover {
+    .catalogList__item__btns .anticon svg:hover {
         width: 18px;
         height: 18px;
     }  
 }
 
 @media (max-width: 768px){
-    .catalogList__item__title,
     .catalogList__item__price {
         font-size: 14px;
     }
@@ -135,15 +136,15 @@
 
     .catalogList__item__title {
         font-size: 12px;
-        height: 70px;
+        height: 76px;
     }
 
-    .catalogList__item__btns .ant-btn {
-        padding: 0px 5px;
+    .catalogList__btn__wishlist,
+    .catalogList__btn__cart {
         font-size: 12px;
-    } 
+    }
 
-    .catalogList__item__btns .ant-btn .anticon svg:hover {
+    .catalogList__item__btns .anticon svg:hover {
         width: 16px;
         height: 16px;
     }  

@@ -15,6 +15,7 @@ class ViewProductsStore {
     if(findProductIndex === -1){
       this.viewProductsState.push({...product, date:Date.now() })
     }
+    this.setLocalStorageViewProducts(this.viewProductsState)
   }
 
   setLocalStorageViewProducts(products: ProductView[]) {

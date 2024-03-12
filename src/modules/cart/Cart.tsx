@@ -43,7 +43,7 @@ export const Cart = observer(() => {
                             title: <HomeOutlined />,
                         },
                         {
-                            title: <div>Корзина покупок</div>,
+                            title: "Корзина покупок",
                         },  
                     ]}
                 />

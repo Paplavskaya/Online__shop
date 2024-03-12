@@ -1,4 +1,4 @@
-import { useEffect,} from "react";
+import { useEffect } from "react";
 import store from "../../common/stores/CatalogListStore";
 import { observer } from "mobx-react-lite";
 import './CatalogList.css';
@@ -18,8 +18,7 @@ export const CatalogList = observer(() => {
         productsTotal,
         categoriesDataState
     } = store
-
-    const {catalogId} = useParams()
+    const {catalogId} = useParams();
 
     useEffect(() => {
         if(catalogId){

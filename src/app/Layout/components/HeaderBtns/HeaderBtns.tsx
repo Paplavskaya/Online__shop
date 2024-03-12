@@ -11,14 +11,20 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import cartStore from "../../../../common/stores/CartStore";
 import { observer } from "mobx-react-lite";
+import wishListStore from "../../../../common/stores/WishListStore";
 
 export const HeaderBtns = observer(() => {
-    const [isSearchActiv, setIsSearchActiv] = useState(false)
-    const navigate = useNavigate()
-    const {cartCounts} = cartStore
+    const [isSearchActiv, setIsSearchActiv] = useState(false);
+    const navigate = useNavigate();
+    const {cartCounts} = cartStore;
+    const {wishListCounts} = wishListStore;
 
     const hendleCartClick = () => {
         navigate('/cart')
+    }
+
+    const hendleWishlistClick = () => {
+        navigate('/wishlist')
     }
     
     return <>
@@ -44,9 +50,11 @@ export const HeaderBtns = observer(() => {
                             <LoginOutlined />
                             Войти
                         </Button>
-                        <Button className='header__btn' type="link" style={{marginTop: "4px"}}>
-                            <HeartOutlined />
-                            Избранное
+                        <Button className='header__btn header__btn__cart' type="link" onClick={hendleWishlistClick}>
+                            <Badge className="btn__cart__badge" count={wishListCounts} color='#fad89d'>
+                                <HeartOutlined />
+                                <span className="btn__cart__span">Избранное</span>
+                            </Badge>
                         </Button>
                         <Button className='header__btn header__btn__cart' type="link" onClick={hendleCartClick}>
                             <Badge className="btn__cart__badge" count={cartCounts} color='#fad89d'>
