@@ -4,10 +4,12 @@ import { SearchProductStore } from "../../../../common/stores/SearchProductStore
 import Slider from "react-slick";
 import { CatalogItem } from "../../../../common/components/CatalogItem";
 import './NewProducts.css'
+import wishListStore from "../../../../common/stores/WishListStore";
 
 export const NewProducts = observer(() => {
     const [store] = useState(()=> new SearchProductStore());
     const {productsNew, loadingAllProducts} = store;
+    const {wishList} = wishListStore;
 
     useEffect(() => {
         loadingAllProducts()
@@ -51,13 +53,17 @@ export const NewProducts = observer(() => {
         ]
     };
 
+    const inWishListId = wishList && wishList.map(el => el.id)
+    const productsNewInWL = productsNew && productsNew.map(e=>{e.inWishList = inWishListId.indexOf(e.id) >= 0; return e;})
+    
+
     return <>
-            {productsNew && productsNew.length >0 &&
+            {productsNewInWL && productsNewInWL.length >0 &&
                 <div className="productsNew__wrapper">
                     <h2 className="productsNew__title">Наши новинки</h2>
                     <div className="slider-container">
                         <Slider {...settings}>
-                            {productsNew.map((productNew) => 
+                            {productsNewInWL.map((productNew) => 
                                 <CatalogItem 
                                     key={productNew.id}
                                     product={productNew}

@@ -6,6 +6,10 @@ class WishListStore {
 
     wishListState: ProductInCart[] = this.getLocalStorageWL()
 
+    get wishList() {
+        return this.wishListState
+    }
+
     get wishListCounts () {
         return this.wishListState.reduce((acc, productIncart) => {
             return acc + productIncart.count
@@ -19,8 +23,8 @@ class WishListStore {
     addToWishList = (product: Product) => {
         const  findProductIndex = this.wishListState.findIndex(({id})=> id === product.id )
         if(findProductIndex === -1){
-            this.wishListState.push({...product, count: 1})
-        }       
+            this.wishListState.push({...product, count: 1, inWishList: true})
+        }   
         this.setLocalStorageWL(this.wishListState)
     }
 

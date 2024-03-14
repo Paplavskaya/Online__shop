@@ -4,7 +4,11 @@ import { ProductView } from "../../../models/ProductView";
 
 class ViewProductsStore {
 
-  viewProductsState: ProductView[] = this.getLocalStorageViewProducts() 
+  viewProductsState: ProductView[] = this.getLocalStorageViewProducts()
+  
+  get viewProducts(){
+    return this.viewProductsState
+  }
 
   constructor() {
     makeAutoObservable(this)

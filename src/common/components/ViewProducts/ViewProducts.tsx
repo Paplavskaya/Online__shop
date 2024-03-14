@@ -8,12 +8,12 @@ import './ViewProducts.css'
 import { useNavigate } from "react-router-dom";
 
 export const ViewProducts = observer(() => {
-    const {viewProductsState, setLocalStorageViewProducts} = viewProductsStore;
+    const {viewProducts, setLocalStorageViewProducts} = viewProductsStore;
     const navigete = useNavigate();
 
     useEffect(()=>{
-        setLocalStorageViewProducts(viewProductsState)
-    }, [viewProductsState])
+        setLocalStorageViewProducts(viewProducts)
+    }, [viewProducts])
 
     const settings = {
         dots: true,
@@ -54,12 +54,12 @@ export const ViewProducts = observer(() => {
     };
     
     return <>
-                {viewProductsState && viewProductsState.length > 3 &&
+                {viewProducts && viewProducts.length > 3 &&
                     <div className="viewProducts__wrapper">
                         <h2 className="viewProducts__title">Вы недавно просматривали</h2>
                         <div className="slider-container">
                             <Slider {...settings}>
-                                {viewProductsState.map((viewProduct) => {
+                                {viewProducts.map((viewProduct) => {
                                     const hendleProductClick = () => {
                                         navigete(`/${viewProduct.category.id}/${viewProduct.id}`)
                                     }

@@ -6,7 +6,11 @@ class CatalogListStore {
     
     productsDataState: CatalogData | undefined = undefined
     categoriesDataState:CategoriesData | undefined = undefined;
-    awaiting: boolean = false    
+    awaiting: boolean = false  
+    
+    get productsData () {
+        return this.productsDataState
+    }
 
     get categoriesNameData () {
         return this.categoriesDataState?.map((category: Category)=> category.name)

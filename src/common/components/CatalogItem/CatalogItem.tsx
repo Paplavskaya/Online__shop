@@ -4,55 +4,42 @@ import { HeartOutlined,
 import { Product } from "../../models/Product";
 import './CatalogItem.css'
 import { useNavigate } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { ModalInCart } from "../ModalInCart";
 import cartStore from "../../stores/CartStore";
 import viewProductsStore from "../ViewProducts/stores/ViewProductsStore";
 import wishListStore from "../../stores/WishListStore";
-import { observer } from "mobx-react-lite";
 
 type CatalogItemProps = {
     product: Product
 }
 
-export const CatalogItem = observer(({product}: CatalogItemProps) => {
-    const {title, price, images, newStatus, id, category} = product;
+export const CatalogItem = ({product}: CatalogItemProps) => {
+    const {title, price, images, newStatus, id, category, inWishList} = product;
     const { addToCart } = cartStore;
     const { addToViewProducts } = viewProductsStore;
     const [open, setOpen] = useState(false);
     const navigete = useNavigate();
-    const {addToWishList, deleteProductInWishList, wishListState} = wishListStore;
-    const [inWishList, setInWishList] = useState(false)
-
-    useEffect(()=>{ 
-        product 
-    }, [inWishList])
+    const {addToWishList, deleteProductInWishList} = wishListStore;
 
     const hendleProductClick = () => {
         navigete(`/${category.id}/${id}`)
         addToViewProducts(product)
-    }
+    };
 
     const handleProductCartClick = (product: Product) => {
         addToCart(product);
         setOpen(true);
     };
-    
-    const  findProductIndex = wishListState.findIndex(({id})=> id === id)
-    if(findProductIndex === 1){
-        setInWishList(true)
-    }
-       
+
     const handleProductWLClick = (product: Product) => {
         if(inWishList === false){
-            setInWishList(true);            
             addToWishList(product);            
-        } else {
-            setInWishList(false);            
+        } else {     
             deleteProductInWishList(product.id);
         }   
     };
-    
+
     if(newStatus) {
         return <div key={id} className="catalogList__item">
                     <div className='catalogList__item__newStatus'>NEW</div>
@@ -97,4 +84,4 @@ export const CatalogItem = observer(({product}: CatalogItemProps) => {
                     <ModalInCart product={product} open={open} setOpen={setOpen}/>
                 </div>
     }
-})
+}

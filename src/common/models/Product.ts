@@ -11,5 +11,6 @@ export type Product = {
     newStatus: boolean,
     price: number,
     stock: number,
-    images: string[]    
+    images: string[],
+    inWishList: boolean    
 }

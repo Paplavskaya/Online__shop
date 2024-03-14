@@ -7,11 +7,12 @@ import { Breadcrumb, Select, Spin } from "antd";
 import { useParams } from "react-router-dom";
 import { HomeOutlined } from '@ant-design/icons';
 import { ViewProducts } from "../../common/components/ViewProducts";
+import wishListStore from "../../common/stores/WishListStore";
 
 export const CatalogList = observer(() => {
     const {
         loadingProducts,
-        productsDataState,
+        productsData,
         awaiting,
         sortIncrease,
         sortDecreasing,
@@ -19,6 +20,7 @@ export const CatalogList = observer(() => {
         categoriesDataState
     } = store
     const {catalogId} = useParams();
+    const {wishList} = wishListStore;
 
     useEffect(() => {
         if(catalogId){
@@ -28,9 +30,9 @@ export const CatalogList = observer(() => {
 
     const handleChangeSort = (value: string) => {
         if(value === 'decreasing') {
-            sortDecreasing(productsDataState!)
+            sortDecreasing(productsData!)
         } else {
-            sortIncrease(productsDataState!)
+            sortIncrease(productsData!)
         }
     };
 
@@ -39,6 +41,9 @@ export const CatalogList = observer(() => {
     // }
     
     const categoryFind = categoriesDataState?.find(category => category.id === catalogId)
+
+    const inWishListId = wishList && wishList.map(el => el.id)
+    const productsDataInWL = productsData && productsData.map(e=>{e.inWishList = inWishListId.indexOf(e.id) >= 0; return e;})
     
 
     return <Spin spinning={awaiting}>
@@ -77,7 +82,7 @@ export const CatalogList = observer(() => {
                     <div className="catalogList__content">
                         <div className="catalogList__main">
                             <div className="catalogList__items">
-                                {productsDataState && productsDataState.length > 0 && productsDataState.map((product)=>
+                                {productsDataInWL && productsDataInWL.length > 0 && productsDataInWL.map((product)=>
                                     <CatalogItem 
                                         key={product.id}
                                         product={product}                                        
