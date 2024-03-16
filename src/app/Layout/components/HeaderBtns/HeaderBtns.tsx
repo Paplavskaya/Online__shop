@@ -26,6 +26,10 @@ export const HeaderBtns = observer(() => {
     const hendleWishlistClick = () => {
         navigate('/wishlist')
     }
+
+    const hendleLoginClick = () => {
+        navigate('/login')
+    }
     
     return <>
                 <ConfigProvider
@@ -46,7 +50,12 @@ export const HeaderBtns = observer(() => {
                             <SearchProduct activ={isSearchActiv} setActiv={setIsSearchActiv}/>
                         </div>
                          
-                        <Button className='header__btn' type="link" style={{marginTop: "4px"}}>
+                        <Button
+                            className='header__btn'
+                            type="link"
+                            style={{marginTop: "4px"}}
+                            onClick={hendleLoginClick}
+                        >
                             <LoginOutlined />
                             Войти
                         </Button>
