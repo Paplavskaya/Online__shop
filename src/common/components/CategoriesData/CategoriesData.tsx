@@ -15,6 +15,13 @@ export const CategoriesData = observer(() => {
     }
 
     return (categoriesDataState && categoriesDataState.length >0 && categoriesDataState.map((category)=>{
-        return <NavLink key={category.id} className='menu__item' to={`/${category.id}`} onClick={()=>{hendleCategoryClick(category.id)}}>{category.name}</NavLink>
+        return <NavLink 
+                    key={category.id}
+                    className='menu__item'
+                    to={`/${category.id}`}
+                    onClick={()=>{hendleCategoryClick(category.id)}}
+                >
+                    {category.name}
+                </NavLink>
     }))
 })
