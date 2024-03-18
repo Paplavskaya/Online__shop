@@ -21,13 +21,13 @@
     font-size: 12px;
 }
 
-@media (max-width: 1050px){
+@media (max-width: 1051px){
     .menu__item {
         padding: 15px 15px;
     }   
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1025px){
     .menu__items  {
         display: none;
     }    

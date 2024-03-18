@@ -34,7 +34,7 @@
     border-radius: 25px;
 }
 
-@media (max-width: 1350px){
+@media (max-width: 1351px){
     .formReview__item__advantages,
     .formReview__item__defects {
         width: 250px;
@@ -46,7 +46,7 @@
     }
 }
 
-@media (max-width: 1280px){
+@media (max-width: 1281px){
     .formReview__item__advantages,
     .formReview__item__defects {
         width: 235px;
@@ -58,7 +58,7 @@
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
     .formReview__item__advantages,
     .formReview__item__defects {
         width: 300px;
@@ -70,7 +70,7 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
     .formReview__form__top {
         flex-direction: column;
         gap: 0;
@@ -84,7 +84,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .formReview__item__advantages,
     .formReview__item__defects,
     .formReview__item__review,

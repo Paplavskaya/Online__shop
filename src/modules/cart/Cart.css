@@ -35,7 +35,7 @@
     background-color:#d9e4f1;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
     .cart__product__info {
         display: flex;
         flex-direction: column;
@@ -47,13 +47,13 @@
     }    
 }
 
-@media (max-width: 800px){
+@media (max-width: 801px){
     .cart__product__total{
         font-size: 18px;
     }
 }
 
-@media (max-width: 425px){
+@media (max-width: 426px){
     .cart__product__info {
         margin-top: 10px;
     }

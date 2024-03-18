@@ -22,7 +22,7 @@
     margin-bottom: 10px;
 }
 
-@media (max-width: 1265px){
+@media (max-width: 1266px){
     .sposob-dostavki__items {        
         gap: 25px;
     }
@@ -32,13 +32,13 @@
     }
 }
 
-@media (max-width: 425px){
+@media (max-width: 426px){
     .sposob-dostavki__title {
         margin-bottom: 0;
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 376px){
     .sposob-dostavki__title {
         margin-bottom: 0;
     }

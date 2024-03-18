@@ -71,7 +71,7 @@
     text-align: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 801px) {
     .categories__item{
         width: 250px;
         height: 250px;
@@ -83,7 +83,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .categories__item{
         width: 150px;
         height: 150px;
@@ -101,7 +101,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
     .categories {
         display: none;
     }

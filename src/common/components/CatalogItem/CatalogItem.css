@@ -78,7 +78,7 @@
     color: #fad89d;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 801px) {
     .catalogList__item {
         width: 150px;
     }
@@ -110,7 +110,7 @@
     }  
 }
 
-@media (max-width: 768px){
+@media (max-width: 769px){
     .catalogList__item__price {
         font-size: 14px;
     }
@@ -124,7 +124,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .catalogList__item {
         width: 120px;
     }

@@ -62,7 +62,7 @@
     background-color: #d9e4f1;
 }
 
-@media (max-width: 800px){
+@media (max-width: 801px){
     .footer__wrapper {
         display: grid;
         grid-template-columns: repeat(2 auto);
@@ -106,7 +106,7 @@
     }    
 }
 
-@media (max-width: 768px){
+@media (max-width: 769px){
     .footer__catalog__items .menu__item,
     .infoForBuyer__item,
     .footer__contacts__item {
@@ -118,7 +118,7 @@
     }
 }
 
-@media (max-width: 425px){
+@media (max-width: 426px){
     .footer__wrapper {
         display: flex;
         flex-direction: column;

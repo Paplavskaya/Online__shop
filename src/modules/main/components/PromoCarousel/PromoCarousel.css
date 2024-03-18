@@ -56,7 +56,7 @@
     font-size: 12px;
 }
 
-@media (max-width: 800px){
+@media (max-width: 801px){
     .promo__item__info {
         position: relative;
         justify-content: center;
@@ -91,7 +91,7 @@
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 769px){
     .promo__carousel {
         height: 350px;
     }
@@ -110,7 +110,7 @@
     }
 }
 
-@media (max-width: 425px){
+@media (max-width: 426px){
     .promo__info__title {
         font-size: 18px;
     }
@@ -132,7 +132,7 @@
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 376px){
     .promo__info__title {
         font-size: 18px;
     }
@@ -150,7 +150,7 @@
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 321px){
     .promo__carousel {
         display: none;
     }

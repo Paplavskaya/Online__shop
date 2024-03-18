@@ -79,7 +79,7 @@
     border-radius: 8px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 769px){
     .search {
         width: 500px;
         top: 40px;
@@ -92,7 +92,7 @@
     }
 }
 
-@media (max-width: 425px){
+@media (max-width: 426px){
     .search {
         width: 380px;
         padding: 5px 20px 15px 20px;
@@ -112,7 +112,7 @@
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 376px){
     .search {
         width: 290px;
     }

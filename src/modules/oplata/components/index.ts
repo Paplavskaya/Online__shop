@@ -1,0 +1,1 @@
+export { OplataInfo } from './OplataInfo'

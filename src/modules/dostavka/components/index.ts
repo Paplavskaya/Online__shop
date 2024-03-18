@@ -1,0 +1,1 @@
+export { DostavkaInfo } from './DostavkaInfo'

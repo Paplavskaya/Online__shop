@@ -29,7 +29,7 @@
     margin-left: 20px;
 }
 
-@media (max-width: 375px){
+@media (max-width: 376px){
     .auth__wrapper {
         width: 250px;
         margin: 10px auto;

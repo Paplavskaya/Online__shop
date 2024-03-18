@@ -24,7 +24,7 @@ export const NewProducts = observer(() => {
         initialSlide: 0,
         responsive: [
             {
-            breakpoint: 1152,
+            breakpoint: 1153,
             settings: {
               slidesToShow: 3,
               slidesToScroll: 3,
@@ -33,7 +33,7 @@ export const NewProducts = observer(() => {
             }
           },
           {
-            breakpoint: 800,
+            breakpoint: 801,
             settings: {
               slidesToShow: 3,
               slidesToScroll: 3,
@@ -42,7 +42,7 @@ export const NewProducts = observer(() => {
             }
           },
           {
-            breakpoint: 425,
+            breakpoint: 426,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2,

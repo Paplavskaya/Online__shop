@@ -10,13 +10,13 @@
     font-size: 28px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
     .main__news__title{        
         font-size: 24px;
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
     .main__news__title{        
         font-size: 20px;
     }

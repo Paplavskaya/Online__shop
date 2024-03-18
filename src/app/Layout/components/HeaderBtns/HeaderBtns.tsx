@@ -44,7 +44,11 @@ export const HeaderBtns = observer(() => {
                 >
                     <ButtonGroup className='header__btns'>
                         <div className='header__search'>
-                            <Button className='header__btn' type="link" onClick={()=> setIsSearchActiv(true)} style={{marginTop: "4px"}}>
+                            <Button
+                                className='header__btn'
+                                type="link"
+                                onClick={()=> setIsSearchActiv(true)}
+                            >
                                 <SearchOutlined/>
                                 Поиск</Button>
                             <SearchProduct activ={isSearchActiv} setActiv={setIsSearchActiv}/>
@@ -53,24 +57,32 @@ export const HeaderBtns = observer(() => {
                         <Button
                             className='header__btn'
                             type="link"
-                            style={{marginTop: "4px"}}
                             onClick={hendleLoginClick}
                         >
                             <LoginOutlined />
                             Войти
                         </Button>
-                        <Button className='header__btn header__btn__cart' type="link" onClick={hendleWishlistClick}>
-                            <Badge className="btn__cart__badge" count={wishListCounts} color='#fad89d'>
+                        <Badge className="btn__cart__badge" count={wishListCounts} color='#fad89d'>
+                            <Button
+                                className='header__btn header__btn__cart'
+                                type="link"
+                                onClick={hendleWishlistClick}
+                            >
                                 <HeartOutlined />
                                 <span className="btn__cart__span">Избранное</span>
-                            </Badge>
-                        </Button>
-                        <Button className='header__btn header__btn__cart' type="link" onClick={hendleCartClick}>
-                            <Badge className="btn__cart__badge" count={cartCounts} color='#fad89d'>
+                            </Button>
+                        </Badge>
+
+                        <Badge className="btn__cart__badge" count={cartCounts} color='#fad89d'>
+                            <Button
+                                className='header__btn header__btn__cart'
+                                type="link"
+                                onClick={hendleCartClick}
+                            >
                                 <ShoppingCartOutlined />
                                 <span className="btn__cart__span">Корзина</span>
-                            </Badge>
-                        </Button>
+                            </Button>
+                        </Badge>
                     </ButtonGroup>
                 </ConfigProvider>                
             </>

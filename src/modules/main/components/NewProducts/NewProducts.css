@@ -20,20 +20,20 @@
     font-size: 28px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
     .productsNew__title{        
         font-size: 24px;
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 801px) {
     .productsNew__wrapper .slider-container,
     .productsNew__wrapper .slick-list {
         height: 274px;
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
     .productsNew__title{        
         font-size: 20px;
     }
@@ -48,7 +48,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .productsNew__wrapper .catalogList__item {        
         gap: 0;
     }

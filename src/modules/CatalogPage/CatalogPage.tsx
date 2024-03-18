@@ -9,14 +9,14 @@ import { observer } from "mobx-react-lite";
 import { Button, Image } from 'antd';
 import './CatalogPage.css';
 import { FormReview } from "./components/FormReview";
-import { Dostavka } from "../dostavka";
-import { Oplata } from "../oplata";
-import { Vozvrat } from "../vozvrat";
 import { ModalInCart } from "../../common/components/ModalInCart";
 import { Product } from "../../common/models/Product";
 import cartStore from "../../common/stores/CartStore";
 import { MessagersInfo } from "../../common/components/MessagersInfo";
 import { ViewProducts } from "../../common/components/ViewProducts";
+import { DostavkaInfo } from "../dostavka/components";
+import { OplataInfo } from "../oplata/components";
+import { VozvratInfo } from "../vozvrat/components";
 
 export const CatalogPage = observer(() => {
     const [store] = useState(()=> new CatalogPageStores());
@@ -120,7 +120,8 @@ export const CatalogPage = observer(() => {
                                                 </Button>,
                                             ]}
                                         >
-                                            <Dostavka/>
+                                            <h2 className="conditions__modal__title">Доставка</h2>
+                                            <DostavkaInfo/>
                                         </Modal>                                     
                                     </div>
                                     <div className="conditions__oplata condition">
@@ -137,7 +138,8 @@ export const CatalogPage = observer(() => {
                                             </Button>,
                                         ]}
                                         >
-                                            <Oplata/>
+                                            <h2 className="conditions__modal__title">Оплата</h2>
+                                            <OplataInfo/>
                                         </Modal>
                                     </div>
                                     <div className="conditions__vozvrat condition">
@@ -154,8 +156,9 @@ export const CatalogPage = observer(() => {
                                                     Закрыть
                                                 </Button>,
                                             ]}
-                                        >                                        
-                                            <Vozvrat/>
+                                        >
+                                            <h2 className="conditions__modal__title">Возврат</h2>                                        
+                                            <VozvratInfo/>
                                         </Modal>
                                     </div>
                                 </div>
